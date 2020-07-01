@@ -1,0 +1,95 @@
+.word-container {
+  border: 1px solid $dark-color-2;
+  opacity: 0;
+  padding: 1em;
+  width: 100%;
+}
+
+.error {
+  background-color: $danger-color;
+  border: 1px solid $danger-color;
+  border-radius: 3px;
+  color: $text-color;
+  height: 3.5em;
+  opacity: 0;
+  padding: 1em;
+  transition: opacity 1s ease;
+
+  @include tablet {
+    font-size: 1.4rem;
+  }
+}
+
+.show {
+  opacity: 1;
+}
+
+.word {
+  font-size: 1rem;
+  margin-bottom: 1em;
+
+  @include tablet {
+    font-size: 1.4rem;
+  }
+
+  &__text {
+    @include title-font;
+    font-size: 1.5em;
+    text-transform: capitalize;
+  }
+
+  &__pronunciation {
+    color: $secondary-color;
+    padding-left: 0.2em;
+  }
+
+  &__definitions {
+    @include reset-list;
+  }
+
+  &__definition {
+    background-color: $dark-color-2;
+    border-radius: 2px;
+    display: flex;
+    // line-height: 1.5em;
+    margin-bottom: 5px;
+    padding: 1em;
+    font-size: 1rem;
+
+    @include tablet {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+.definition {
+  &__text-container {
+    flex: 0 0 80%;
+    padding-right: 1em;
+  }
+
+  &__image-container {
+    align-self: center;
+    flex: 0 0 20%;
+    justify-content: flex-end;
+  }
+
+  &__type {
+    color: $info-color;
+  }
+
+  &__text {
+    padding: 0;
+    text-align: left;
+  }
+
+  &__example {
+    color: $grey-color;
+    font-style: italic;
+  }
+
+  &__image {
+    border-radius: 50%;
+    max-width: 100%;
+  }
+}

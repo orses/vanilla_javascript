@@ -1,0 +1,42 @@
+.form-container {
+  border: 1px solid $dark-color-2;
+  height: 170px;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-between;
+
+  &-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+  }
+
+  &__input {
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5em;
+    padding: 10px 5px;
+  }
+
+  &__submit {
+    align-self: flex-end;
+    background-color: $cta-color;
+    border: none;
+    border-radius: 2px;
+    color: $text-color;
+    cursor: pointer;
+    padding: 1em 1.5em;
+    width: 8em;
+  }
+}

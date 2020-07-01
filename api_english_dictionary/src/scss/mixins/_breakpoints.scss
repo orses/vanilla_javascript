@@ -1,0 +1,34 @@
+@mixin mobile {
+  @media screen and (max-width: $mobile) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and (min-width: $tablet) {
+    @content;
+  }
+}
+@mixin laptop {
+  @media screen and (min-width: $laptop) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media screen and (min-width: $desktop) {
+    @content;
+  }
+}
+
+/* Example
+.about {
+  @include laptop {
+    position: relative;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+*/
