@@ -25,9 +25,11 @@ async function startSearch(e) {
   if (!word) {
     wordContainer.classList.remove('show');
     displayError('Word not found!', '.error');
+    // the input field retains the input value. So the user can find out why there's an error in the word
   } else {
     displayWord(word, '.word-container');
     wordContainer.classList.add('show');
+    e.target.word.value = '';
   }
 }
 

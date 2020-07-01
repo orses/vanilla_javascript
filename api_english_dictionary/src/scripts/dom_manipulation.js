@@ -23,11 +23,6 @@ export const displayWord = (word, target) => {
   </div>
   <ul class="word__definitions"></ul>`;
 
-  document.querySelector('.word__text').textContent = term;
-  document.querySelector('.word__pronunciation').textContent = `${
-    pronunciation ? `/${pronunciation}/` : ''
-  }`;
-
   const displayDefinitions = document.createDocumentFragment();
 
   for (let i = 0, len = definitions.length; i < len; i++) {
@@ -42,7 +37,9 @@ export const displayWord = (word, target) => {
       <p class="definition__text">${definition.definition} ${
       definition.emoji ? definition.emoji : ''
     }</p>
-      <span class="definition__example">"${definition.example}"</span>
+      <span class="definition__example">${
+        definition.example ? `"${definition.example}"` : ''
+      }</span>
     </div>
     <div class="definition__image-container">
       ${
@@ -60,5 +57,4 @@ export const displayWord = (word, target) => {
   }
 
   document.querySelector('.word__definitions').appendChild(displayDefinitions);
-  document.querySelector('.word-container').classList.toggle('show');
 };
