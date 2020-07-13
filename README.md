@@ -14,3 +14,5 @@ libraries
 ### Basic projects: Color Flipper
 
 - Main Goal: Use modules and attributes `data-`
+- Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/basic_color_flipper)
+- Live Demo: 🚧
