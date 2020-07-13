@@ -39,6 +39,6 @@ A project to consume data from an external REST API, using Fetch API and async/a
 
 - Data from **Owlbot** ([https://owlbot.info](https://owlbot.info))
 
-## Techniques uses
+## Techniques used
 
 - modularity (SCSS, JS)
