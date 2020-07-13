@@ -13,7 +13,7 @@ A project to consume data from an external REST API, using Fetch API and async/a
 - To run the development server
 
   ```js
-  yarn run dev
+  yarn dev
   ```
 
 - To build a production website

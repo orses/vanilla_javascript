@@ -17,9 +17,9 @@ export const displayWord = (word, target) => {
   wordDOM.innerHTML = ` 
   <div class="word">
     <h2 class="word__text">${term}</h2>
-    <span class="word__pronunciation">${
+    <span class="word__pronunciation"> <span class="word__pronunciation">${
       pronunciation ? `/${pronunciation}/` : ''
-    }</span>
+    }</span> 
   </div>
   <ul class="word__definitions"></ul>`;
 
@@ -46,9 +46,9 @@ export const displayWord = (word, target) => {
         definition.image_url
           ? `
           <img
+            alt=""
             class="definition__image"
             src="${definition.image_url}"
-            alt=""
           />`
           : ''
       }

@@ -11,18 +11,19 @@
     </header>
     <main class="container">
       <section class="form-container">
-        <form class="form" action="" id="word-form" name="word-form">
+        <form action="" class="form" id="word-form" name="word-form">
           <div class="form-group">
             <label class="form__label" for="word">Input a word</label>
             <input
+              autocomplete="off"
               class="form__input"
-              type="text"
-              name="word"
               id="word"
+              name="word"
               required
+              type="text"
             />
           </div>
-          <button type="submit" class="form__submit" id="search" name="search">
+          <button class="form__submit" id="search" name="search" type="submit">
             Search
           </button>
         </form>
@@ -33,26 +34,3 @@
     <script src="./scripts/index.js"></script>
   </body>
 </html>
-
-<!-- 
-
-<li class="word__definition">
-            <div class="definition__text-container">
-              <span class="definition__type">noun</span>
-              <p class="definition__text">
-                A fully grown female animal of a domesticated breed of ox, kept
-                to produce milk or beef. 🐄
-              </p>
-              <span class="definition__example">"a dairy cow"</span>
-            </div>
-            <div class="definition__image-container">
-              <img
-                class="definition__image"
-                src="https://media.owlbot.info/dictionary/images/jjjjjjjjjjjs.jpg.400x400_q85_box-0,0,1674,1674_crop_detail.jpg"
-                alt=""
-              />
-            </div>
-          </li>
-
-
--->
