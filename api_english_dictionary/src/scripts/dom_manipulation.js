@@ -41,18 +41,18 @@ export const displayWord = (word, target) => {
         definition.example ? `"${definition.example}"` : ''
       }</span>
     </div>
-    <div class="definition__image-container">
-      ${
-        definition.image_url
-          ? `
+    ${
+      definition.image_url
+        ? `
+        <div class="definition__image-container">
           <img
             alt=""
             class="definition__image"
             src="${definition.image_url}"
-          />`
-          : ''
-      }
-    </div>`;
+          />
+        </div>`
+        : ''
+    }`;
     displayDefinitions.appendChild(definitionDOM);
   }
 
