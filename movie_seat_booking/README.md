@@ -1,6 +1,6 @@
 # Movie Seat Booking
 
-a website with a virtual cinema to choose seats to watch a movie
+A website with a virtual cinema to choose seats to watch a movie
 
 ## Credits
 
