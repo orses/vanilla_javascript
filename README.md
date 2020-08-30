@@ -11,14 +11,14 @@ libraries
 - Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/api_english_dictionary)
 - Live Demo: 🚧
 
-### `Basic projects: Color Flipper`
+### `Basic Projects: Color Flipper`
 
 - Main Goal: Use modules and attributes `data-`
 - Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/basic_color_flipper)
 - Live Demo: 🚧
 
-### `Basic client side html form validation`
+### `Basic Client Side HTML Form validation`
 
 - Main Goal: Chek for basic validation on the client side and show error messages under specific inputs
-- Repository: [link]()
+- Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/form_validator)
 - Live Demo: 🚧

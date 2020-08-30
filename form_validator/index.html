@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Basic Client Side Form validator</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="#" class="form" id="form">
+        <h2>Register With Us</h2>
+        <div class="form-control">
+          <label for="username">User Name</label>
+          <input
+            autocomplete="off"
+            id="username"
+            placeholder="Enter username"
+            type="text"
+          />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input
+            autocomplete="off"
+            id="email"
+            placeholder="Enter email"
+            type="email"
+          />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input
+            autocomplete="off"
+            id="password"
+            placeholder="Enter password"
+            type="password"
+          />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password_confirm">Confirm Password</label>
+          <input
+            autocomplete="off"
+            id="password_confirm"
+            placeholder="Confirm password"
+            type="password"
+          />
+          <small>Error message</small>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

@@ -1,4 +1,4 @@
-# HTML 5 form validator
+# HTML 5 Form validator
 
 A basic client side validation.
 This project checks required, length, email and password match
