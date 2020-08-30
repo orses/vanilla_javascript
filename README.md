@@ -1,4 +1,4 @@
-# vanilla_javascript
+# Vanilla Javascript Projects
 
 Projects, practices and exercises using ECMAScript 6+ without frameworks o
 libraries
@@ -21,4 +21,10 @@ libraries
 
 - Main Goal: Chek for basic validation on the client side and show error messages under specific inputs
 - Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/form_validator)
+- Live Demo: 🚧
+
+### `Movie Seat Booking`
+
+- Main Goal: Work with local storage to store the seats chosen by the user
+- Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/movie_seat_booking)
 - Live Demo: 🚧
