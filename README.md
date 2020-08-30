@@ -21,7 +21,7 @@ libraries
 
 - Main Goal: Chek for basic validation on the client side and show error messages under specific inputs
 - Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/form_validator)
-- Live Demo: 🚧[link](https://orses.github.io/vanilla_javascript/form_validator/src/)
+- Live Demo: [link](https://orses.github.io/vanilla_javascript/form_validator/src/)
 
 ### `Movie Seat Booking`
 
