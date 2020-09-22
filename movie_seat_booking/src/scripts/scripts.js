@@ -10,10 +10,23 @@
     { title: 'The Lion King', price: 9, theater: 4 },
   ];
 
-  let ticketPrice = +movieSelect.value;
+  let ticketPrice = 0;
   let selectedSeatsCount = 0;
   let selectedSeatsAmount = 0;
   let selectedSeats = null;
+
+  const populateSelect = () => {
+    const options = document.createDocumentFragment();
+    for (let item = 0, len = movies.length; item < len; item += 1) {
+      const option = document.createElement('option');
+      option.value = movies[item].price;
+      option.text = `${movies[item].title} ($${movies[item].price})`;
+      options.append(option);
+    }
+
+    movieSelect.appendChild(options);
+    movieSelect.selectedIndex = 0;
+  };
 
   const amountSelectedSeats = () => {
     return selectedSeatsCount * ticketPrice;
@@ -43,6 +56,7 @@
   const displaySelectedSeatsAmount = () => {
     const total = document.querySelector('#total');
     total.textContent = selectedSeatsAmount;
+    console.log(selectedSeatsAmount);
   };
 
   const updateDataFromUser = () => {
@@ -91,19 +105,6 @@
     storeMovieData(event.target.selectedIndex, price);
   };
 
-  const populateSelect = () => {
-    const options = document.createDocumentFragment();
-    for (let item = 0, len = movies.length; item < len; item += 1) {
-      const option = document.createElement('option');
-      option.value = movies[item].price;
-      option.text = `${movies[item].title} ($${movies[item].price})`;
-      options.append(option);
-    }
-
-    movieSelect.appendChild(options);
-    movieSelect.selectedIndex = 0;
-  };
-
   // Load and setup initial data
   const init = () => {
     // Populate UI
@@ -128,6 +129,7 @@
       storeMovieData(0, movies[0].price);
     }
 
+    setTicketPrice(+movieSelect.value);
     updateDataFromUser();
   };
 

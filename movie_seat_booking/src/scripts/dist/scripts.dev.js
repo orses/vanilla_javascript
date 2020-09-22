@@ -29,10 +29,24 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
     price: 9,
     theater: 4
   }];
-  var ticketPrice = +movieSelect.value;
+  var ticketPrice = 0;
   var selectedSeatsCount = 0;
   var selectedSeatsAmount = 0;
   var selectedSeats = null;
+
+  var populateSelect = function populateSelect() {
+    var options = document.createDocumentFragment();
+
+    for (var item = 0, len = movies.length; item < len; item += 1) {
+      var option = document.createElement('option');
+      option.value = movies[item].price;
+      option.text = "".concat(movies[item].title, " ($").concat(movies[item].price, ")");
+      options.append(option);
+    }
+
+    movieSelect.appendChild(options);
+    movieSelect.selectedIndex = 0;
+  };
 
   var amountSelectedSeats = function amountSelectedSeats() {
     return selectedSeatsCount * ticketPrice;
@@ -62,6 +76,7 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
   var displaySelectedSeatsAmount = function displaySelectedSeatsAmount() {
     var total = document.querySelector('#total');
     total.textContent = selectedSeatsAmount;
+    console.log(selectedSeatsAmount);
   };
 
   var updateDataFromUser = function updateDataFromUser() {
@@ -108,20 +123,6 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
     setTicketPrice(price);
     updateDataFromUser();
     storeMovieData(event.target.selectedIndex, price);
-  };
-
-  var populateSelect = function populateSelect() {
-    var options = document.createDocumentFragment();
-
-    for (var item = 0, len = movies.length; item < len; item += 1) {
-      var option = document.createElement('option');
-      option.value = movies[item].price;
-      option.text = "".concat(movies[item].title, " ($").concat(movies[item].price, ")");
-      options.append(option);
-    }
-
-    movieSelect.appendChild(options);
-    movieSelect.selectedIndex = 0;
   }; // Load and setup initial data
 
 
@@ -148,6 +149,7 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
       storeMovieData(0, movies[0].price);
     }
 
+    setTicketPrice(+movieSelect.value);
     updateDataFromUser();
   };
 
