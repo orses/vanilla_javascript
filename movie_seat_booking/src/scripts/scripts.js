@@ -56,7 +56,6 @@
   const displaySelectedSeatsAmount = () => {
     const total = document.querySelector('#total');
     total.textContent = selectedSeatsAmount;
-    console.log(selectedSeatsAmount);
   };
 
   const updateDataFromUser = () => {

@@ -28,3 +28,9 @@ libraries
 - Main Goal: Work with local storage to store the seats chosen by the user
 - Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/movie_seat_booking)
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/movie_seat_booking/src/)
+
+### `Custom Video Player`
+
+- Main Goal: Practice Video and Audio API
+- Repository [link](https://github.com/orses/vanilla_javascript/tree/master/video_player)
+- Live Demo: [link](https://orses.github.io/vanilla_javascript/video_player/src/)
