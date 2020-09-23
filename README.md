@@ -7,11 +7,15 @@ libraries
 
 ### `English Word Definitions`
 
+A project to consume data from an external REST API, using Fetch API and async/await
+
 - Main Goal: Consuming external REST API with Fetch API and async/await
 - Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/api_english_dictionary)
 - Live Demo: 🚧
 
 ### `Basic Projects: Color Flipper`
+
+A web page with random background colors
 
 - Main Goal: Use modules and attributes `data-`
 - Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/basic_color_flipper)
@@ -19,11 +23,15 @@ libraries
 
 ### `Basic Client Side HTML Form validation`
 
+A basic client side validation.
+
 - Main Goal: Chek for basic validation on the client side and show error messages under specific inputs
 - Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/form_validator)
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/form_validator/src/)
 
 ### `Movie Seat Booking`
+
+A web page with a virtual cinema to choose seats to watch a movie
 
 - Main Goal: Work with local storage to store the seats chosen by the user
 - Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/movie_seat_booking)
@@ -31,6 +39,16 @@ libraries
 
 ### `Custom Video Player`
 
-- Main Goal: Practice Video and Audio API
+A video player with **custom controls** to know and practice with the `<video>` embed element.
+
+- Main Goal: Practice with `<video>` element
 - Repository [link](https://github.com/orses/vanilla_javascript/tree/master/video_player)
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/video_player/src/)
+
+### `Exchange Rate Calculator`
+
+A web page to obtain the exchange rate of different currencies using an external API to obtain this information.
+
+- Main Goal: Using Fetch API to retrieve external information on JSON data format
+- Repository [link](https://github.com/orses/vanilla_javascript/tree/master/exchange_rate_calculator)
+- Live Demo: [link](https://orses.github.io/vanilla_javascript/exchange_rate_calculator/src/)

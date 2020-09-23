@@ -1,6 +1,6 @@
 # Movie Seat Booking
 
-A website with a virtual cinema to choose seats to watch a movie
+A web page with a virtual cinema to choose seats to watch a movie
 
 ![screenshot of the app showing the selected film and seats; also the number total of seats, and the total price of the same](./data/screenshot_01.jpg)
 
