@@ -1,6 +1,11 @@
 # Custom Video Player
 
-A video player with custom controls to know the Video and Audio API
+![screenshot of the app showing a video with custom controls and time as minutes and seconds](./data/screenshot_01.jpg)
+
+A video player with **custom controls** to know and practice with the `<video>` embed element.
+
+- Main Goal: Practice Video and Audio API
+- Live Demo: [link](https://orses.github.io/vanilla_javascript/video_player/src/)
 
 ## Credits
 

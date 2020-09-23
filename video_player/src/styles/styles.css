@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+html {
+  box-sizing: border-box; /* https://css-tricks.com/box-sizing/ */
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #666;
+  font-family: 'Questrial', sans-serif;
+  margin: auto;
+  max-height: 100vh;
+  max-width: 90%;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.video-player {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.screen,
+.controls {
+  width: 90%;
+}
+
+.screen {
+  background-color: #000;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+
+.controls {
+  align-items: center;
+  background-color: #333;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media (min-width: 720px) {
+  .screen,
+  .controls {
+    width: 90%;
+  }
+}
+
+@media (min-width: 900px) {
+  .screen,
+  .controls {
+    width: 70%;
+  }
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.controls .btn {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.controls .fa-play {
+  color: #28a745;
+}
+
+.controls .fa-stop {
+  color: #dc3545;
+}
+
+.controls .fa-pause {
+  color: #fff;
+}
+
+.controls .timestamp {
+  color: #fff;
+  font-weight: bold;
+  margin-left: 10px;
+}
