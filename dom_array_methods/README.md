@@ -15,4 +15,4 @@ A web page to practice some very useful methods for arrays with a list of data f
 
 - REST API from **Random User Generator** (randomuser.me)
 
-> Random User Generator website [link](https://randomuser.me/)
+  > Random User Generator website [link](https://randomuser.me/)
