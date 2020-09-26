@@ -15,4 +15,4 @@ A web page to obtain the exchange rate of different currencies using an external
 
 - REST API from **Foreign exchange rates API** (exchangeratesapi.io) with _European Central Bank_ as data source
   > Foreign exchange rates API website [link](https://exchangeratesapi.io/)  
-  > European Central Banck [link](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html)
+  > European Central Bank [link](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html)
