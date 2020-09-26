@@ -11,6 +11,8 @@ A web page to practice some very useful methods for arrays with a list of data f
 
 - Project from: Udemy course "20 Web Projects With Vanilla JavaScript"
 
-  > Course website [link](https://www.udemy.com/course/web-projects-with-vanilla-javascript)  
-  > REST API from **Random User Generator** (randomuser.me)
-  > Random User Generator website [link](https://randomuser.me/)
+  > Course website [link](https://www.udemy.com/course/web-projects-with-vanilla-javascript)
+
+- REST API from **Random User Generator** (randomuser.me)
+
+> Random User Generator website [link](https://randomuser.me/)
