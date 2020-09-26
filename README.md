@@ -49,6 +49,6 @@ A video player with **custom controls** to know and practice with the `<video>` 
 
 A web page to obtain the exchange rate of different currencies using an external API to obtain this information.
 
-- Main Goal: Using Fetch API to retrieve external information on JSON data format
+- Main Goal: Using Fetch API, with async/await, to retrieve external information on JSON data format.
 - Repository [link](https://github.com/orses/vanilla_javascript/tree/master/exchange_rate_calculator)
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/exchange_rate_calculator/src/)

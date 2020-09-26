@@ -7,6 +7,45 @@
     <title>Exchange Rate Calculator</title>
   </head>
   <body>
+    <header>
+      <img
+        src="./images/money.png"
+        alt="A gear with a dollar symbol inside it"
+        class="main-image"
+      />
+      <h1 class="main-title">Exchange Rate Calculator</h1>
+      <p>Choose the currency and the amounts to get the exchange rate</p>
+    </header>
+    <main class="container">
+      <div class="currency-container">
+        <select class="currency__select" id="currency-origin"></select>
+        <input
+          class="currency__input"
+          id="amount-origin"
+          name="amount-origin"
+          placeholder="0"
+          type="number"
+          value="1"
+        />
+      </div>
+      <div class="swap-container">
+        <button class="btn" id="swap">Swap</button>
+        <div class="rate" id="rate"></div>
+      </div>
+
+      <div class="currency-container">
+        <select class="currency__select" id="currency-destiny"></select>
+        <input
+          class="currency__input"
+          id="amount-destiny"
+          name="amount-destiny"
+          placeholder="0"
+          readonly
+          type="number"
+          value="1"
+        />
+      </div>
+    </main>
     <script src="./scripts/scripts.js"></script>
   </body>
 </html>
