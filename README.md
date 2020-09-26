@@ -57,8 +57,6 @@ A web page to obtain the exchange rate of different currencies using an external
 
 A web page to practice some very useful methods for arrays with a list of data from an external REST API
 
-![screenshot of the ...](./data/screenshot_01.jpg)
-
 - Main Goal: Practice with array methods (reduce, sort, filter, map and forEach) with a data list o people from a REST API.
 - Repository [link](https://github.com/orses/vanilla_javascript/tree/master/dom_array_methods)
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_array_methods/src/)
