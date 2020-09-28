@@ -1,4 +1,4 @@
-# Movie Seat Booking
+# Menu slider and modal window
 
 A web page with a collapsible hamburger menu, and a modal window for user registration
 
