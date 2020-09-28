@@ -60,3 +60,11 @@ A web page to practice some very useful methods for arrays with a list of data f
 - Main Goal: Practice with array methods (reduce, sort, filter, map and forEach) with a data list o people from a REST API.
 - Repository [link](https://github.com/orses/vanilla_javascript/tree/master/dom_array_methods)
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_array_methods/src/)
+
+### `Menu slider and modal window`
+
+A web page with a collapsible hamburger menu, and a modal window for user registration
+
+- Main Goal: Working with a slider, as a menu, and a modal window.
+- Repository [link](https://github.com/orses/vanilla_javascript/tree/master/menu_slider_and_modal)
+- Live Demo: [link](https://orses.github.io/vanilla_javascript/menu_slide_and_modal/src/)
