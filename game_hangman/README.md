@@ -4,7 +4,7 @@ A web page with a game, the hangman to guess a hidden word in a set amount of ch
 
 ![screenshot of the app showing the hangman finished with the word guessed](./data/screenshot_02_red.jpg)
 
-- Main Goal: Working with SVG and notifications y popups.
+- Main Goal: Working with SVG, notifications and popups.
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/game_hangman/src/)
 
 ## Credits

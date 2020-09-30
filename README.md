@@ -73,6 +73,6 @@ A web page with a collapsible hamburger menu, and a modal window for user regist
 
 A web page with a game, the hangman to guess a hidden word in a set amount of chances.
 
-- Main Goal: Working with SVG and notifications y popups.
+- Main Goal: Working with SVG, notifications and popups.
 - Repository [link](https://github.com/orses/vanilla_javascript/tree/master/game_hangman/)
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/game_hangman/src/)
