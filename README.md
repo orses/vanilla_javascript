@@ -67,4 +67,4 @@ A web page with a collapsible hamburger menu, and a modal window for user regist
 
 - Main Goal: Working with a slider, as a menu, and a modal window.
 - Repository [link](https://github.com/orses/vanilla_javascript/tree/master/menu_slider_and_modal)
-- Live Demo: [link](https://orses.github.io/vanilla_javascript/menu_slide_and_modal/src/)
+- Live Demo: [link](https://orses.github.io/vanilla_javascript/menu_slider_and_modal/src/)
