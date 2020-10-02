@@ -8,12 +8,11 @@
     '#notification-message'
   );
   const btnPlayAgain = document.querySelector('#btn-play');
-
   const figurePartsElement = document.querySelectorAll('.figure__part');
 
   let wordList = [];
   let selectedWord = '';
-  const correctLetters = [];
+  const guessedLetters = [];
   const wrongLetters = [];
 
   function getRandomWord(words) {
@@ -44,7 +43,7 @@
   }
 
   function getPartialWord() {
-    return getWordWithGuessedLetters(selectedWord, correctLetters);
+    return getWordWithGuessedLetters(selectedWord, guessedLetters);
   }
 
   function displayWordWithGuessedLetters(word, element) {
@@ -110,8 +109,8 @@
   function checkInputLetter(letter) {
     // if the letter was guessed,
     // we must either store it or report its repetition
-    if (selectedWord.includes(letter) && !correctLetters.includes(letter)) {
-      correctLetters.push(letter);
+    if (selectedWord.includes(letter) && !guessedLetters.includes(letter)) {
+      guessedLetters.push(letter);
       displayWordWithGuessedLetters(getPartialWord(), wordElement);
       checkGame();
       return;
@@ -119,7 +118,7 @@
 
     // if the letter was not guessed,
     // we must either store it or report its repetition
-    if (!wrongLetters.includes(letter) && !correctLetters.includes(letter)) {
+    if (!wrongLetters.includes(letter) && !guessedLetters.includes(letter)) {
       wrongLetters.push(letter);
       displayWrongLetters();
       drawFigure();
@@ -143,7 +142,7 @@
     selectedWord = getRandomWord(wordList);
     // we don't want to permit any repetition
     wordList = removeWord(selectedWord, wordList);
-    correctLetters.length = 0;
+    guessedLetters.length = 0;
     wrongLetters.length = 0;
 
     /* showing the correct data

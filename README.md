@@ -76,3 +76,11 @@ A web page with a game, the hangman to guess a hidden word in a set amount of ch
 - Main Goal: Working with SVG, notifications and popup (modal window).
 - Repository [link](https://github.com/orses/vanilla_javascript/tree/master/game_hangman/)
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/game_hangman/src/)
+
+### `Game: Hangman, variant 02`
+
+A web page with a game, the hangman to guess a hidden word in a set amount of chances (1000+ English Words).
+
+- Main Goal: Working with images, DOM manipulation
+- Repository [link](https://github.com/orses/vanilla_javascript/tree/master/game_hangman_variant_02/)
+- Live Demo: [link](https://orses.github.io/vanilla_javascript/game_hangman_variant_02/src/)
