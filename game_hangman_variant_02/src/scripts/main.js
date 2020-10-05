@@ -1,7 +1,7 @@
 (() => {
-  /* -------- constans ------- */
+  /* -------- constants ------- */
   /* -------- app's state (variables) ------- */
   /* -------- cached element references ------- */
   /* -------- functions ------- */
-  /* -------- event listener ------- */
+  /* -------- event listeners ------- */
 })();
