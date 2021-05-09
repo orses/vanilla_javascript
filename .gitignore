@@ -75,3 +75,4 @@ build/Release
 # PERSONAL
 /documentation_dev
 /.vscode/
+.dccache
