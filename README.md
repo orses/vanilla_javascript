@@ -13,7 +13,7 @@ A project to consume data from an external REST API, using Fetch API and async/a
 - Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/api_english_dictionary/)
 - Live Demo: 🚧
 
-### `Basic Projects: Color Flipper`
+### `Basic Project: Color Flipper`
 
 A web page with random background colors
 
