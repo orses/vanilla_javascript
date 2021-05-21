@@ -31,6 +31,7 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
+# This file can show the api keys even if we use .env
 build/Release
 /build
 /dist
@@ -70,9 +71,8 @@ build/Release
 
 # DEVELOPMENT
 /.vscode
+/.cache
 /.dccache
-
-
 
 # PERSONAL
 /documentation_dev

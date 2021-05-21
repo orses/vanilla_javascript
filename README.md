@@ -21,6 +21,14 @@ A web page with random background colors
 - Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/basic_color_flipper/)
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/basic_color_flipper/src/)
 
+### `Basic Project: Passenger Counter`
+
+A basic counter to know and practice with the DOM and event listener.
+
+- Main Goal: Practice basic sintax and DOM manipulation
+- Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/passenger_counter/)
+- Live Demo: [link](https://orses.github.io/vanilla_javascript/passenger_counter/src/)
+
 ### `Basic Client Side HTML Form validation`
 
 A basic client side validation.

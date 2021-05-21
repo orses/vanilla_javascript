@@ -1,0 +1,143 @@
+:root {
+  --white: rgb(255, 255, 255);
+  --dark-green: darkgreen;
+  --dark-red: darkred;
+  --light-gray: rgb(177, 177, 177);
+  --dark-gray: rgb(49, 45, 45);
+  --light-green: rgb(140, 255, 140);
+  --light-red: rgb(255, 171, 162);
+}
+
+html {
+  font-size: 62.5%;
+  min-height: 100vh;
+}
+
+body {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(189, 189, 189, 0.85),
+      rgba(153, 138, 138, 0.85)
+    ),
+    url('../images/station.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: var(--dark-gray);
+}
+
+.app__title {
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+  color: var(--dark-gray);
+}
+
+.app__counter {
+  font-size: 5rem;
+  margin-bottom: 1em;
+  margin-top: 0;
+  color: var(--dark-red);
+}
+
+.app__actions,
+.app__messages {
+  align-items: center;
+  color: var(--dark-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.btn {
+  border: none;
+  border-radius: 0.3em;
+  color: var(--white);
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 1em;
+  padding: 2em 0;
+  width: 100%;
+}
+
+.btn-increment {
+  background: var(--dark-red);
+}
+
+.btn-increment:hover {
+  background-color: var(--light-red);
+  color: var(--dark-red);
+}
+
+.btn-save {
+  background: var(--dark-green);
+}
+
+.btn-save:disabled {
+  background-color: var(--light-gray);
+  cursor: auto;
+}
+
+.btn-save:hover:not(:disabled) {
+  background-color: var(--light-green);
+  color: var(--dark-green);
+}
+
+.link {
+  color: darkgreen;
+  font-weight: normal;
+  text-decoration: none;
+  transition: font-weight 0.3s ease;
+}
+
+.link:hover {
+  font-weight: 500;
+}
+
+footer {
+  bottom: 0;
+  margin: 15em auto 1em auto;
+  width: 100%;
+}
+
+@media (min-width: 500px) {
+  body {
+    font-size: 1.6rem;
+  }
+
+  header h1 {
+    font-size: 3rem;
+  }
+
+  .app__title {
+    margin-top: 2em;
+  }
+
+  .app__counter {
+    margin-bottom: 2em;
+  }
+
+  .app__actions,
+  .app__messages {
+    margin-bottom: 2em;
+    width: 350px;
+  }
+
+  footer {
+    bottom: 0;
+    margin: 10em auto 1em auto;
+    width: 100%;
+  }
+}
