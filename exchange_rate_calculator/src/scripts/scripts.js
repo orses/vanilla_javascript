@@ -67,7 +67,7 @@
   async function getRates(base, rateSymbol) {
     let rates = {};
 
-    // when currencyOrigin is EUR and currencyDestiny is EUR, API returns undefinded
+    // when currencyOrigin is EUR and currencyDestiny is EUR, API returns undefined
     if (base === rateSymbol) {
       rates[rateSymbol] = 1;
     } else {
