@@ -22,12 +22,10 @@
 
   async function getRamdonUser() {
     const user = await fetchUser();
-    const newUser = {
+    return {
       name: `${user.name.first} ${user.name.last}`,
       money: Math.floor(Math.random() * 1000000),
     };
-
-    return newUser;
   }
 
   function formatMoney(number) {

@@ -15,6 +15,16 @@
   const guessedLetters = [];
   const wrongLetters = [];
 
+  const isTrustedOrigin = origin => {
+    // security: origin
+    const devURL = 'http://localhost:5500';
+    const productionURL = 'https://orses.github.io';
+
+    // security: identify the sender
+    if (origin === devURL || origin === productionURL) return true;
+    return false;
+  };
+
   function getRandomWord(words) {
     const indexForWord = Math.floor(Math.random() * words.length);
     return words[indexForWord];
@@ -35,11 +45,9 @@
    * @returns string
    */
   function getWordWithGuessedLetters(word, letters) {
-    const guessed = word
+    return word
       .split('')
       .map(letter => (letters.includes(letter) ? letter : ''));
-
-    return guessed;
   }
 
   function getPartialWord() {
@@ -64,9 +72,13 @@
   }
 
   function displayWrongLetters() {
+    const wrongLettersToDisplay = wrongLetters
+      .map(letter => `<span>${letter}</span>`)
+      .join(' ');
+
     wrongLettersElement.innerHTML = `${
       wrongLetters.length > 0 ? '<p>Wrong</p>' : ''
-    } ${wrongLetters.map(letter => `<span>${letter}</span>`).join(' ')}`;
+    } ${wrongLettersToDisplay}`;
   }
 
   function drawFigure() {
@@ -130,8 +142,11 @@
   }
 
   function handleKeyboard(event) {
-    // e.keyCode returns the same code to 'a' and 'A' = 65
+    // security: identify the sender
+    if (!isTrustedOrigin(event.view.origin)) return;
+
     if (event.keyCode >= 65 && event.keyCode <= 90) {
+      // e.keyCode returns the same code to 'a' and 'A' = 65
       const letter = event.key.toLowerCase();
       checkInputLetter(letter);
     }
@@ -159,8 +174,7 @@
 
   async function fetchWords() {
     const request = await fetch('./data/words.json');
-    const data = await request.json();
-    return data;
+    return request.json();
   }
 
   function handlePlayAgain() {
@@ -168,6 +182,9 @@
   }
 
   function handlePopup(event) {
+    // security: identify the sender
+    if (!isTrustedOrigin(event.view.origin)) return;
+
     const isPopupShown = popupElement.classList.contains('show');
     const isValidKeyCode = event.keyCode === 13;
     if (isPopupShown && isValidKeyCode) setGame();

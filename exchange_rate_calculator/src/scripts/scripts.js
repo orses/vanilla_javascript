@@ -59,11 +59,9 @@
   function fetchRates(base) {
     const url = `https://api.exchangeratesapi.io/latest?base=${base}`;
 
-    const rates = fetch(url)
+    return fetch(url)
       .then(res => res.json())
       .then(data => data.rates);
-
-    return rates;
   }
 
   async function getRates(base, rateSymbol) {

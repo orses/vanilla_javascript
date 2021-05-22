@@ -1,5 +1,5 @@
 const button = document.querySelector('.btn');
-const color = document.querySelector('.color');
+const colorElement = document.querySelector('.color');
 
 const getRandomNumber = limit => {
   return Math.floor(Math.random() * limit);
@@ -27,7 +27,7 @@ const getHexadecimalColor = () => {
 
   let color = '#';
 
-  for (let i = 0; i < 6; i++) {
+  for (let digit = 0; digit < 6; digit++) {
     color += HEXADECIMAL[getRandomNumber(16)];
   }
 
@@ -35,9 +35,9 @@ const getHexadecimalColor = () => {
 };
 
 const changeColor = e => {
-  let hexadecimalColor = getHexadecimalColor();
+  const hexadecimalColor = getHexadecimalColor();
   document.body.style.backgroundColor = hexadecimalColor;
-  color.textContent = hexadecimalColor;
+  colorElement.textContent = hexadecimalColor;
 };
 
 button.addEventListener('click', changeColor);

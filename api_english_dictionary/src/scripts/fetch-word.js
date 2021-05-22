@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const getWord = async word => {
+const fetchWord = async word => {
   const API_KEY = process.env.DICTIONARY_API_KEY;
   const url = `https://owlbot.info/api/v4/dictionary/${word}`;
 
@@ -20,4 +20,4 @@ const getWord = async word => {
   }
 };
 
-export default getWord;
+export default fetchWord;

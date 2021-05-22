@@ -2,12 +2,10 @@
 const sanitize = word => {
   if (!word) return false;
 
-  const wordTemp = word
+  return word
     .toLowerCase()
     .trim()
     .replace(/[^a-z']/g, '');
-
-  return wordTemp;
 };
 
 export default sanitize;

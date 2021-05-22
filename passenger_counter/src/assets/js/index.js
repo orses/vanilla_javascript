@@ -17,10 +17,11 @@
   };
 
   const displaySaved = () => {
-    const currentDisplay = countDisplayElement.textContent;
-    countDisplayElement.textContent = `${
-      currentDisplay === '0' ? '' : `${currentDisplay} - `
-    }${count}`;
+    const currentlyDisplayed = countDisplayElement.textContent;
+    const contentToDisplay =
+      currentlyDisplayed === '0' ? '' : `${currentlyDisplayed} - `;
+
+    countDisplayElement.textContent = `${contentToDisplay}${count}`;
   };
 
   const resetCount = () => {

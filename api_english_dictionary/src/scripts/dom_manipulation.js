@@ -13,13 +13,12 @@ export const displayWord = (word, target) => {
   const { word: term, pronunciation, definitions } = word;
   const wordDOM = document.querySelector(target);
   wordDOM.innerHTML = '';
+  const pronunciationCharacters = pronunciation ? `/${pronunciation}/` : '';
 
   wordDOM.innerHTML = ` 
   <div class="word">
     <h2 class="word__text">${term}</h2>
-    <span class="word__pronunciation"> <span class="word__pronunciation">${
-      pronunciation ? `/${pronunciation}/` : ''
-    }</span> 
+    <span class="word__pronunciation"> <span class="word__pronunciation">${pronunciationCharacters}</span> 
   </div>
   <ul class="word__definitions"></ul>`;
 
@@ -29,6 +28,19 @@ export const displayWord = (word, target) => {
     const definition = definitions[i];
     const definitionDOM = document.createElement('li');
     definitionDOM.classList.add('word__definition');
+    const definitionExample = definition.example
+      ? `"${definition.example}"`
+      : '';
+    const definitionImage = definition.image_url
+      ? `
+    <div class="definition__image-container">
+      <img
+        alt=""
+        class="definition__image"
+        src="${definition.image_url}"
+      />
+    </div>`
+      : '';
 
     definitionDOM.innerHTML = `<div class="definition__text-container">
       <span class="definition__type">${
@@ -37,22 +49,9 @@ export const displayWord = (word, target) => {
       <p class="definition__text">${definition.definition} ${
       definition.emoji ? definition.emoji : ''
     }</p>
-      <span class="definition__example">${
-        definition.example ? `"${definition.example}"` : ''
-      }</span>
+      <span class="definition__example">${definitionExample}</span>
     </div>
-    ${
-      definition.image_url
-        ? `
-        <div class="definition__image-container">
-          <img
-            alt=""
-            class="definition__image"
-            src="${definition.image_url}"
-          />
-        </div>`
-        : ''
-    }`;
+    ${definitionImage}`;
     displayDefinitions.appendChild(definitionDOM);
   }
 
