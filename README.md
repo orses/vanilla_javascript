@@ -99,4 +99,4 @@ A web page with a menu of pictures.
 
 - Main Goal: Working with images, DOM manipulation
 - Repository [link](https://github.com/orses/vanilla_javascript/tree/master/menu_visual/)
-- Live Demo: 🚧
+- Live Demo: [link](https://orses.github.io/vanilla_javascript/menu_visual/src/)
