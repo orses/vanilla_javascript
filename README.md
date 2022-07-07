@@ -91,4 +91,12 @@ A web page with a game, the hangman to guess a hidden word in a set amount of ch
 
 - Main Goal: Working with images, DOM manipulation
 - Repository [link](https://github.com/orses/vanilla_javascript/tree/master/game_hangman_variant_02/)
-- Live Demo: [link](https://orses.github.io/vanilla_javascript/game_hangman_variant_02/src/)
+- Live Demo: 🚧
+
+### `DOM: menu graphic`
+
+A web page with a menu of pictures.
+
+- Main Goal: Working with images, DOM manipulation
+- Repository [link](https://github.com/orses/vanilla_javascript/tree/master/menu_visual/)
+- Live Demo: 🚧
