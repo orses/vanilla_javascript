@@ -113,7 +113,7 @@
     const displayItems = document.querySelector('.section-center');
     displayItems.innerHTML = items;
 
-    // loadn and display filter options
+    // load and display filter options
     const categories = getCategories(menu);
     categories.unshift('all');
     const filters = makeFilters(categories);
