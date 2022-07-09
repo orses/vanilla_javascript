@@ -4,7 +4,7 @@
 
 A basic counter to know and practice with the DOM and event listener.
 
-- Main Goal: Practice basic sintax and DOM manipulation
+- Main Goal: [DOM] Practice basic sintax and DOM manipulation
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/passenger_counter/src/)
 
 ## Credits

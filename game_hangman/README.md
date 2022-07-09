@@ -4,12 +4,12 @@ A web page with a game, the hangman to guess a hidden word in a set amount of ch
 
 ![Screenshot of the app showing the game with some guessed letters and the almost complete hangman](./data/screenshot_03_red.jpg)
 
-- Main Goal: Working with SVG, notifications and popup (modal window).
+- Main Goal: [HTML5 API - VIDEO] Working with SVG, notifications and popup (modal window).
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/game_hangman/src/)
 
 ## Credits
 
-- Project from: Udemy course "20 Web Projects With Vanilla JavaScript"
+- Project from: Udemy course "20 Web Projects With Vanilla JavaScript" by Brad Traversy
 
   > Course website [link](https://www.udemy.com/course/web-projects-with-vanilla-javascript)
 

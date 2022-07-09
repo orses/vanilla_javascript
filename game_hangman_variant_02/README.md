@@ -4,7 +4,7 @@ A web page with a game, the hangman to guess a hidden word in a set amount of ch
 
 ![Screenshot of the app showing the game with some guessed letters and the almost complete hangman](./data/screenshot_03_red.jpg)
 
-- Main Goal: Working with images, DOM manipulation
+- Main Goal: [HTML5 API - FETCH] Working with images, DOM manipulation
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/game_hangman_variant_02/src/)
 
 ## Credits

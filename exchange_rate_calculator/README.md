@@ -4,12 +4,12 @@ A web page to obtain the exchange rate of different currencies using an external
 
 ![screenshot of the website showing the Euro and US dollar exchange](./data/screenshot_01.jpg)
 
-- Main Goal: Using Fetch API, with async/await, to retrieve external information on JSON data format.
+- Main Goal: [HTML5 API - FECTH] Using Fetch API, with async/await, to retrieve external information on JSON data format.
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/exchange_rate_calculator/src/)
 
 ## Credits
 
-- Project from: Udemy course "20 Web Projects With Vanilla JavaScript"
+- Project from: Udemy course "20 Web Projects With Vanilla JavaScript" by Brad Traversy
 
   > Course website [link](https://www.udemy.com/course/web-projects-with-vanilla-javascript)
 
