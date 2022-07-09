@@ -4,7 +4,7 @@ A web page to practice DOM manipulation with drap & drop API of HTM5 with event 
 
 ![screenshot of the application with a list of options to reorder by drag and drop](./data/screenshot_01.jpg)
 
-- Main Goal: (HTML5 API - DRAG & DROP) Practice with DOM manipulation with Drag & Drop API.
+- Main Goal: [HTML5 API - DRAG & DROP] Practice with DOM manipulation with Drag & Drop API.
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/drag_drop/src/)
 
 ## Credits
