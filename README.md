@@ -21,7 +21,7 @@ A basic counter to know and practice with the DOM and event listener.
 - Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/passenger_counter/)
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/passenger_counter/src/)
 
-### `DOM: menu graphic`
+### `DOM: Menu graphic`
 
 A web page with a menu of pictures.
 
@@ -61,13 +61,13 @@ A web page with a virtual cinema to choose seats to watch a movie
 - Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/movie_seat_booking/)
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/movie_seat_booking/src/)
 
-### `HTML5 API - Drap & Drop: Reorder items`
+### `HTML5 API - Drag & Drop: Reorder items`
 
-A web page to practice DOM manipulation with drap & drop API of HTM5 with event delegation
+A web page to practice DOM manipulation with drag & drop API of HTM5 with event delegation
 
 - Main Goal: Practice with DOM manipulation with Drag & Drop API.
-- Repository [link](https://github.com/orses/vanilla_javascript/tree/master/drap_drop/)
-- Live Demo: [link](https://orses.github.io/vanilla_javascript/drap_drop/src/)
+- Repository [link](https://github.com/orses/vanilla_javascript/tree/master/drag_drop/)
+- Live Demo: [link](https://orses.github.io/vanilla_javascript/drag_drop/src/)
 
 ### `HTML5 API - VIDEO: Custom Video Player`
 
