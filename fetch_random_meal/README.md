@@ -1,6 +1,6 @@
 # Ramdon Meal Generator
 
-A web page to practice the fetch API of HTM5
+A web page to practice the fetch API of HTM5 with embeded Youtube video
 ![screenshot of the application with a list of options to reorder by drag and drop](./data/screenshot_01.jpg)
 
 - Main Goal: [HTML5 API - FETCH] Practice with Fetch Api.
