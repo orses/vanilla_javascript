@@ -1,4 +1,4 @@
-# Ramdon Meal Generato
+# Ramdon Meal Generator
 
 A web page to practice the fetch API of HTM5
 ![screenshot of the application with a list of options to reorder by drag and drop](./data/screenshot_01.jpg)
