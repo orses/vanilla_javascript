@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-family: "Muli", sans-serif;
+	justify-content: center;
+	min-height: calc(100vh - 2rem);
+	padding: 1.5rem;
+}
+
+.container{
+	width: 80%;
+}
+
+.main-section{
+	margin: 3rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+.toc2 {
+	color:#025a69;
+	margin: 0px;
+	font-size: 3rem;
+}
+
+.toc3{
+	margin: 2.5rem 0 1.5rem;
+	font-size: 1.5rem;
+}
+
+.toc4{
+	margin: 1rem 0 0;
+}
+
+.text-center {
+	text-align: center;
+}
+
+li {
+	margin-bottom: 0ch;
+}
+
+.video-container {
+	height: 0;
+	padding-bottom: 56.25%;
+	padding-top: 1rem;
+	position: relative;
+	max-width: 80%;
+}
+
+.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.button-primary{
+	background-color: #20d9fa;
+	border: none;
+	border-radius: 5%;
+	color:#020963;
+	cursor: pointer;
+	font-size: 1.5rem;
+	font-weight: 600;
+	padding: 1rem 1.5rem;
+}
+
+.button-primary:active{
+	transform: scale(0.98);
+}
+
+.floating-message {
+	background-color: rgb(211, 250, 223);
+	bottom: 0;
+	border-radius: 0.5rem 0 0 0;
+	color: rgb(1, 41, 32);
+	font-family: sans-serif;
+	padding: 0 0.8rem;
+	position: fixed;
+	right: 0;
+}
+
+.floating-message a {
+	color: #005045;
+	font-weight: 600;
+	text-decoration: none;
+	display: block;
+	padding: 0 0 1rem 0;
+}

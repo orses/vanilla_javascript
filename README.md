@@ -77,6 +77,14 @@ A video player with **custom controls** to know and practice with the `<video>` 
 - Repository [link](https://github.com/orses/vanilla_javascript/tree/master/video_player/)
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/video_player/src/)
 
+### `HTML5 API - FETCH: Random Meal`
+
+A web page to obtain a random meal (recipe and ingredients) using a REST API
+
+- Main Goal: Using Fetch API to retrieve external information on JSON data format.
+- Repository [link](https://github.com/orses/vanilla_javascript/tree/master/fetch_random_meal/)
+- Live Demo: [link](https://orses.github.io/vanilla_javascript/fetch_random_meal/src/)
+
 ### `HTML5 API - FETCH: Exchange Rate Calculator`
 
 A web page to obtain the exchange rate of different currencies using an external API to get this information.
