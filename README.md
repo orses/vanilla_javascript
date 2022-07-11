@@ -52,7 +52,7 @@ A web page with a collapsible hamburger menu, and a modal window for user regist
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/menu_slider_and_modal/)
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/menu_slider_and_modal/src/)
 
-### `DOM - Memory Game`
+### `DOM: Memory Game`
 
 A web page to practice the DOM manipulation with arrays and CSS classes.
 
