@@ -1,0 +1,138 @@
+html {
+	--background-color: rgb(51, 50, 50);
+	--text-color: rgb(99, 221, 221);
+	--accent-color:rgb(253, 188, 103);
+	--text-accent-color: rgb(1, 163, 9);
+	box-sizing: border-box;
+	font-size: 62.5% /* 10px */;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body{
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+
+.container{
+	align-items:center;
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+	justify-content: center;	
+	margin: auto;
+	max-width: 90%;
+}
+
+header{
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	margin: 0 0 5rem 0;
+	padding: 0 0 0 3rem;
+}
+
+header div {
+	padding-right: 3rem;
+	width: 80%;
+}
+
+.subtitle{
+	font-size: 2rem;
+}
+
+.toc1{
+	font-size: 5rem;
+}
+
+
+.memory-board {
+	align-items: center;
+	background-color: rgb(19, 19, 19);
+	display: flex;
+	height: 540px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0.5rem 1rem;
+	width: 800px;
+}
+
+.tile {
+	border: var(--accent-color) solid 1px;
+	cursor: pointer;
+	font-size: 8rem;
+	height: 110px;
+	margin: 0.4rem;
+	text-align: center;	
+	width: 110px;
+}
+
+.tile-back-side{
+	background: url(../images/tile_background.jpg);
+	background-size: cover;
+}
+
+.tile-front-side {
+	background-color: #fff;
+}
+
+.conffeti {
+	font-size: 2rem;
+	position: fixed;
+	top: -10vh;
+	transform: translateY(0);
+	animation: popout 3s linear;
+}
+
+
+.button-primary {
+	background-color: var(--accent-color);
+	border: none;
+	border-radius: 5px;
+	color:var(--background-color);
+	cursor:pointer;
+	font-size: 2.5rem;
+	opacity: 1;
+	padding: 2rem 3rem;
+	width: 200px;
+}
+
+.button-primary:active {	
+	transform: scale(0.98);
+}
+
+.button-primary:disabled{
+	cursor:default;
+  opacity: 0;
+}
+
+.floating-message {
+	background-color: var(--text-color);
+	bottom: 0;
+	border-radius: 0.5rem 0 0 0;
+	color: rgb(1, 41, 32);
+	font-family: sans-serif;
+	padding: 0 1rem 1rem 0.5rem;
+	position: fixed;
+	right: 0;
+	height: 5vh;
+	margin: 0;
+}
+
+.floating-message a {
+	color: #005045;
+	font-weight: 600;
+	font-size: 1.2rem;
+	text-decoration: none;
+	display: block;
+	margin: 0;
+}
+
+@keyframes popout {
+	to {
+		transform: translateY(105vh);
+	}
+}
