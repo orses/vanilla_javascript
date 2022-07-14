@@ -13,7 +13,7 @@ A web page to practice the fetch API of HTML5 and DOM manipulation
 
 - Project from: 10 JavaScript Projects by Florin Pop, project #6: Movie App
 
-  > Youtube video [link][https://www.youtube.com/watch?v=dtkciwk_si4&list=plk5zkk61ru84dfw6ijrckxue50pxv8paf&index=12&t=17174s]
+  > Youtube video [link](https://www.youtube.com/watch?v=dtkciwk_si4&list=plk5zkk61ru84dfw6ijrckxue50pxv8paf&index=12&t=17174s)
 
 - REST API from **TVMAZE** (tvmaze.com)
   > Test API version website [link](https://www.tvmaze.com/api)
