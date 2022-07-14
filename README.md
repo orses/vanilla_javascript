@@ -92,6 +92,15 @@ A web page to obtain a random meal (recipe and ingredients) using a REST API
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/fetch_random_meal/)
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/fetch_random_meal/src/)
 
+### `HTML5 API - FETCH: Movie App`
+
+A web page to practice the fetch API of HTML5 and DOM manipulation
+![screenshot of the application with a list of options to reorder by drag and drop](./data/screenshot_01.jpg)
+
+- 🎯 Main Goal: [HTML5 API - FETCH] Practice with Fetch Api and practice with CSS cards
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/fetch_movies/)
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/fetch_movies/src/)
+
 ### `HTML5 API - FETCH: Exchange Rate Calculator`
 
 A web page to obtain the exchange rate of different currencies using an external API to get this information.

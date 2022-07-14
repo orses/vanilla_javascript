@@ -3,8 +3,8 @@
 A web page to practice the fetch API of HTM5
 ![screenshot of the application with a list of options to reorder by drag and drop](./data/screenshot_01.jpg)
 
-- Main Goal: [HTML5 API - FETCH] Practice with Fetch Api.
-- Live Demo: [link](https://orses.github.io/vanilla_javascript/fetch_random_meal/src/)
+- 🎯 Main Goal: [HTML5 API - FETCH] Practice with Fetch Api.
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/fetch_random_meal/src/)
 
 ## Credits
 

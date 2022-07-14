@@ -11,6 +11,7 @@ A web page to practice the DOM manipulation with arrays and CSS classes.
 - Project from: Memory Game Programming Tutorial - by Adam Khoury
 
   > Projects website [link](http://www.developphp.com/video/JavaScript/Memory-Game-Programming-Tutorial)
+
   > Project video on Youtube [link](https://youtu.be/c_ohDPWmsM0)
 
 - CSS animation for conffeti effect inspired from Purple Heart Rain by Florin Pop (Youtube video: 10 JavaScript Projects in 1 Hour - Coding Challenge) [link](https://youtu.be/8GPPJpiLqHk?t=1348)
