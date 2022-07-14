@@ -60,30 +60,6 @@ A web page to practice the DOM manipulation with arrays and CSS classes.
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/dom_memory_game/)
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_memory_game/src/)
 
-### `HTML5 API - localStorage: Movie Seat Booking`
-
-A web page with a virtual cinema to choose seats to watch a movie
-
-- 🎯Main Goal: Work with local storage to store the seats chosen by the user
-- 🗂️ Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/movie_seat_booking/)
-- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/movie_seat_booking/src/)
-
-### `HTML5 API - Drag & Drop: Reorder items`
-
-A web page to practice DOM manipulation with drag & drop API of HTM5 with event delegation
-
-- 🎯 Main Goal: Practice with DOM manipulation with Drag & Drop API.
-- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/drag_drop/)
-- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/drag_drop/src/)
-
-### `HTML5 API - VIDEO: Custom Video Player`
-
-A video player with **custom controls** to know and practice with the `<video>` embed element.
-
-- 🎯 Main Goal: Practice with `<video>` element
-- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/video_player/)
-- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/video_player/src/)
-
 ### `HTML5 API - FETCH: Random Meal`
 
 A web page to obtain a random meal (recipe and ingredients) using a REST API
@@ -115,6 +91,30 @@ A project to consume data from an external REST API, using Fetch API and async/a
 - 🎯 Main Goal: Consuming external REST API with Fetch API and async/await
 - 🗂️ Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/api_english_dictionary/)
 - 🕹️ Live Demo: 🚧
+
+### `HTML5 API - localStorage: Movie Seat Booking`
+
+A web page with a virtual cinema to choose seats to watch a movie
+
+- 🎯Main Goal: Work with local storage to store the seats chosen by the user
+- 🗂️ Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/movie_seat_booking/)
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/movie_seat_booking/src/)
+
+### `HTML5 API - Drag & Drop: Reorder items`
+
+A web page to practice DOM manipulation with drag & drop API of HTM5 with event delegation
+
+- 🎯 Main Goal: Practice with DOM manipulation with Drag & Drop API.
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/drag_drop/)
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/drag_drop/src/)
+
+### `HTML5 API - VIDEO: Custom Video Player`
+
+A video player with **custom controls** to know and practice with the `<video>` embed element.
+
+- 🎯 Main Goal: Practice with `<video>` element
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/video_player/)
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/video_player/src/)
 
 ### `Game: Hangman`
 
