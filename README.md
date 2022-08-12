@@ -16,7 +16,7 @@ A web page with random background colors
 
 A basic counter to know and practice with the DOM and event listener.
 
-- 🎯 Main Goal: Practice basic sintax and DOM manipulation
+- 🎯 Main Goal: Practice basic syntax and DOM manipulation
 - 🗂️ Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/passenger_counter/)
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/passenger_counter/src/)
 
@@ -27,6 +27,14 @@ A web page with a menu of pictures.
 - 🎯 Main Goal: Working with images, DOM manipulation
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/menu_visual/)
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/menu_visual/src/)
+
+### `DOM:` Card rating
+
+A page to ask the user for a rating and respond with a thank you.
+
+- 🎯 Main Goal: Working with radio buttons with accessibility and DOM manipulation
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/card_rating_interactive/)
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/card_rating_interactive/src/)
 
 ### `DOM:` Client side Form validation
 
@@ -59,6 +67,14 @@ A web page to practice the DOM manipulation with arrays and CSS classes.
 - 🎯 Main Goal: [DOM] Practice with DOM, arrays and CSS classes.
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/dom_memory_game/)
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_memory_game/src/)
+
+### `DOM:` Quiz test
+
+A web page to practice DOM manipulation and generate a test-quiz
+
+- 🎯 Main Goal: [DOM] Practice with DOM, and interactivity with test quizzes.
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/dom_exam_quiz/)
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_exam_quiz/src/)
 
 ### `HTML5 API - FETCH:` Random Meal
 

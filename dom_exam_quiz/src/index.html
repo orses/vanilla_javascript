@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam/Quiz</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link rel="shortcut icon" href="./logo.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>Exam / Quiz app</h2>
+      </header>
+      <main>
+        <section class="quiz">
+          <div class="quiz__front-page">Start Quiz!</div>
+          <article class="quiz__container hidden">
+            <h3 class="quiz__header">Question #1</h3>
+            <div class="quiz__title"></div>
+            <div class="quiz__image"></div>
+            <div class="quiz__choices"></div>
+            <div class="quiz__timer">
+              <div class="quiz__counter" id="counter"></div>
+              <div class="quiz__image-gauge" id="btimageGauge"></div>
+              <div class="quiz__time-gauge" id="timeGauge"></div>
+            </div>
+          </article>
+          <div class="quiz__progress"></div>
+          <div class="quiz__score hidden"></div>
+        </section>
+      </main>
+      <footer></footer>
+    </div>
+    <script src="./assets/scripts/app.js" type="module"></script>
+  </body>
+</html>

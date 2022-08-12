@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=JetBrains+Mono&display=swap');
+
+:root {
+  --alert-color: rgb(255, 185, 180);
+  --info-color: rgb(32, 32, 253);
+  --neutral-color: rgb(196, 196, 196);
+  --success-color: rgb(165, 243, 165);
+  --light-gray: rgb(223, 219, 219);
+  --gray: gray;
+  --orange: rgb(242, 101, 37);
+  --light-orange: rgb(255, 165, 124);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5% /* 10px */;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 2rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'JetBrains Mono', sans-serif;
+}
+
+/*------------------------------------------*\
+# QUIZ
+\*------------------------------------------*/
+.quiz {
+  font-family: 'Edu SA Beginner', sans-serif;
+}
+
+.quiz__counter {
+  color: var(--info-color);
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.quiz__image img {
+  height: 10rem;
+  width: 10rem;
+  background-size: cover;
+}
+
+.quiz__time-gauge {
+  background-color: var(--success-color);
+  height: 0.5rem;
+  width: 0;
+}
+
+.quiz__choice {
+  background-color: var(--light-gray);
+  border: 1px #ccc solid;
+  border-radius: 0.2em;
+  cursor: pointer;
+  padding: 0.5em 2em;
+}
+
+.quiz__choice:active {
+  transform: scaleY(0.95);
+}
+
+.quiz__progress {
+  display: flex;
+  flex-direction: row;
+}
+
+.quiz__progress-info {
+  background-color: none;
+  border-radius: 50%;
+  height: 1rem;
+  margin: 0 0.2em;
+  width: 1rem;
+}
+
+.quiz__score {
+  align-items: center;
+  background-color: var(--neutral-color);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+
+.quiz__score img {
+  height: 10rem;
+  width: 10rem;
+}
+
+.quiz__score p {
+  font-size: 6rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.selected {
+  background-color: var(--gray);
+}
+
+.success {
+  background-color: var(--success-color);
+}
+
+.failed {
+  background-color: var(--alert-color);
+}

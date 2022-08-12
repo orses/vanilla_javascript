@@ -69,11 +69,9 @@ build/Release
 .next
 
 # DEVELOPMENT
-/.vscode
-/.dccache
 
 
 
 # PERSONAL
 /documentation_dev
-/EXAMPLE
+/.vscode/
