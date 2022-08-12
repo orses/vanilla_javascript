@@ -43,7 +43,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/interactive-rating-with-accessible-radio-buttons-JSLXqomNeP)
 - Live Site URL: [Add live site URL here](https://orses.github.io/vanilla_javascript/card_rating_interactive/src/)
 
 ## My process
