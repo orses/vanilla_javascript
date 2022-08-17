@@ -1,0 +1,136 @@
+/* -----
+  LAYOUT
+------------------------------------*/
+.center-l {
+  box-sizing: content-box;
+  margin-inline: auto;
+  max-inline-size: 327px;
+  padding-inline: auto;
+}
+
+.cluster-l {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-block: 0px;
+  justify-content: space-between;
+}
+
+.cover-l {
+  background-image: url(../../images/home/background-home-mobile.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-block-size: 100vh;
+}
+
+.cover-l > :nth-child(1) {
+  margin-block-start: 0;
+}
+
+.cover-l > :nth-child(2) {
+  margin-block: 3rem;
+}
+
+.frame-l {
+  align-items: center;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  max-height: 40px;
+}
+
+.frame-l > img {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: contain;
+}
+
+.stack-l > * + * {
+  margin-block-start: var(--space, 1rem);
+}
+
+.switcher-l {
+  --threshold: 767px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gutter, 2rem);
+}
+
+.switcher-l > * {
+  flex-grow: 1;
+  flex-basis: calc((var(--threshold) - 100%) * 999);
+}
+
+.switcher-l .first-column {
+  max-inline-size: 450px;
+  text-align: center;
+}
+
+.switcher-l .second-column {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  max-width: 274px;
+  margin-block-start: 5.0625rem;
+}
+
+@media screen and (min-width: 376px) {
+  .center-l {
+    max-inline-size: 450px;
+  }
+
+  .cover-l {
+    background-image: url(../../images/home/background-home-tablet.jpg);
+  }
+
+  .cover-l > :nth-child(2) {
+    margin-block: 5.625rem;
+  }
+
+  .frame-l {
+    max-height: clamp(2.5rem, 2.0204rem + 2.0408vw, 3rem);
+  }
+
+  .stack-l > * + * {
+    margin-block-start: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .center-l {
+    max-inline-size: 1110px;
+  }
+
+  .cover-l {
+    justify-content: space-between;
+    background-image: url(../../images/home/background-home-desktop.jpg);
+  }
+
+  .cover-l > :nth-child(2) {
+    margin-block: 8.1875rem;
+  }
+
+  main {
+    padding-inline: 2.25rem;
+  }
+
+  .stack-l > * + * {
+    margin-block-start: 1.5rem;
+  }
+
+  .switcher-l {
+    justify-content: space-between;
+  }
+
+  .switcher-l .first-column {
+    text-align: left;
+  }
+
+  .switcher-l .second-column {
+    justify-content: flex-end;
+  }
+}

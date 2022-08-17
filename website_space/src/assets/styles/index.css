@@ -1,0 +1,7 @@
+@import './globals/root.css';
+@import './globals/reset.css';
+@import './globals/layout.css';
+@import './globals/typography.css';
+@import './components/nav.css';
+@import './components/button.css';
+@import './utilities/utilities.css';
