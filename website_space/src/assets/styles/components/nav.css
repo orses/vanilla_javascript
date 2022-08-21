@@ -119,10 +119,6 @@ COMPONENTS: NAV (PRIMARY NAV, SECONDARY PSEUDO NAV)
 }
 
 @media screen and (min-width: 376px) {
-  .nav {
-    max-inline-size: 450px;
-  }
-
   .nav > * {
     font-size: var(--fs-text-small);
     line-height: clamp(
@@ -141,16 +137,37 @@ COMPONENTS: NAV (PRIMARY NAV, SECONDARY PSEUDO NAV)
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 600px) {
   .nav {
-    max-inline-size: 830px;
+    position: absolute;
+    max-inline-size: 450px;
+    max-block-size: 96px;
+    padding-inline-start: 48px;
+    padding-inline-end: 46px;
+  }
+
+  [data-visible='false'] > .nav {
+    transform: translateX(0%);
+    transition: transform 500ms ease-in-out;
   }
 
   .nav > * {
-    font-size: clamp(
-      var(--fs-text-small),
-      0.831rem + 0.1878vw,
-      var(--fs-text-big)
-    );
+    font-size: 14px;
+
+    padding-block-start: 39px;
+    padding-block-end: 37px;
+    padding-inline: 0;
+  }
+
+  .nav > * + * {
+    padding-inline-start: 37px;
+  }
+
+  .nav-toggle-button {
+    display: none;
+  }
+
+  .nav a span {
+    display: none;
   }
 }

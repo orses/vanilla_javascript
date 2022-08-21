@@ -20,14 +20,6 @@ A basic counter to know and practice with the DOM and event listener.
 - 🗂️ Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/passenger_counter/)
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/passenger_counter/src/)
 
-### `DOM:` Menu graphic
-
-A web page with a menu of pictures.
-
-- 🎯 Main Goal: Working with images, DOM manipulation
-- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/menu_visual/)
-- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/menu_visual/src/)
-
 ### `DOM:` Card rating
 
 A page to ask the user for a rating and respond with a thank you.
@@ -35,6 +27,22 @@ A page to ask the user for a rating and respond with a thank you.
 - 🎯 Main Goal: Working with radio buttons with accessibility and DOM manipulation
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/card_rating_interactive/)
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/card_rating_interactive/src/)
+
+### `DOM:` Section with testimonials
+
+A web page with a section with testimonials and dynamic rating
+
+- 🎯 Main Goal: Working with images, DOM manipulation, CSS with two images for a background and responsive design
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/section_social/)
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/section_social/src/)
+
+### `DOM:` Menu graphic
+
+A web page with a menu of pictures.
+
+- 🎯 Main Goal: Working with images, DOM manipulation
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/menu_visual/)
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/menu_visual/src/)
 
 ### `DOM:` Client side Form validation
 
