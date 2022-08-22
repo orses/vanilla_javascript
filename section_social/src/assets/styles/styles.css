@@ -180,6 +180,7 @@ picture {
     var(--lh-text-bigger)
   );
   margin-block-end: 1px;
+  margin-block-start: -1rem;
 }
 
 .section__stats {
