@@ -199,7 +199,7 @@ picture {
 @media screen and (min-width: 376px) {
   .section__title {
     letter-spacing: -2px;
-    margin-block-end: 1px;
+    margin-block-end: 1rem;
   }
   .section__header {
     text-align: left;
