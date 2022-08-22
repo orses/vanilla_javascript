@@ -9,7 +9,7 @@
 @font-face {
   font-display: swap;
   font-family: 'League Spartan';
-  font-style: medium;
+  font-style: normal;
   font-weight: 500;
   src: url(./lib/LeagueSpartan-Medium.ttf) format('truetype');
 }
@@ -17,7 +17,7 @@
 @font-face {
   font-display: swap;
   font-family: 'League Spartan';
-  font-style: bold;
+  font-style: normal;
   font-weight: 700;
   src: url(./lib/LeagueSpartan-Bold.ttf) format('truetype');
 }
