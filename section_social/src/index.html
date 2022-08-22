@@ -14,113 +14,123 @@
       href="./assets/images/favicon-32x32.png"
     />
     <title>Frontend Mentor | Social proof section</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!--     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap"
       rel="stylesheet"
-    />
+    /> -->
     <link rel="stylesheet" href="./assets/styles/styles.css" />
   </head>
   <body>
     <main class="cover-l">
-      <section class="center-l">
-        <header class="stack-l section__header">
-          <h1 class="section__title">
-            10,000+ of our users love our products.
-          </h1>
-          <p class="section__subtitle">
-            We only provide great products combined with excellent customer
-            service. See what our satisfied customers are saying about our
-            services.
-          </p>
-        </header>
-        <div class="stack-l section__stats">
-          <div class="rating__stars" data-stars="5" data-topic="Reviews"></div>
-          <div
-            class="rating__stars"
-            data-stars="3"
-            data-topic="Report Guru"
-          ></div>
-          <div class="rating__stars" data-stars="1" data-topic="BestTech"></div>
-        </div>
-        <div class="section__testimonials">
-          <ul class="stack-l">
-            <li>
-              <article class="box-l stack-l card">
-                <header class="cluster-l">
-                  <img
-                    alt="Image of Colton Smith"
-                    height="40"
-                    class="card__avatar"
-                    src="./assets/images/image-colton.jpg"
-                    width="40"
-                  />
-                  <div class="stack-l">
-                    <h2 class="card__title">Colton Smith</h2>
-                    <p class="highlight">Verified Buyer</p>
-                  </div>
-                </header>
-                <blockquote>
-                  <p class="card__text">
-                    “We needed the same printed design as the one we had ordered
-                    a week prior. Not only did they find the original order, but
-                    we also received it in time. Excellent!”
-                  </p>
-                </blockquote>
-              </article>
-            </li>
-            <li>
-              <article class="box-l stack-l card">
-                <header class="cluster-l">
-                  <img
-                    alt="Image of Irene Roberts"
-                    class="card__avatar"
-                    height="40"
-                    src="./assets/images/image-irene.jpg"
-                    width="40"
-                  />
-                  <div class="stack-l">
-                    <h2 class="card__title">Irene Roberts</h2>
-                    <p class="highlight">Verified Buyer</p>
-                  </div>
-                </header>
-                <blockquote>
-                  <p class="card__text">
-                    “Customer service is always excellent and very quick turn
-                    around. Completely delighted with the simplicity of the
-                    purchase and the speed of delivery.”
-                  </p>
-                </blockquote>
-              </article>
-            </li>
-            <li>
-              <article class="box-l stack-l card">
-                <header class="cluster-l">
-                  <img
-                    alt="Image of Anne Wallace"
-                    class="card__avatar"
-                    height="40"
-                    src="./assets/images/image-anne.jpg"
-                    width="40"
-                  />
-                  <div class="stack-l">
-                    <h2 class="card__title">Anne Wallace</h2>
-                    <p class="highlight">Verified Buyer</p>
-                  </div>
-                </header>
-                <blockquote>
-                  <p class="card__text">
-                    “Put an order with this company and can only praise them for
-                    the very high standard. Will definitely use them again and
-                    recommend them to everyone!”
-                  </p>
-                </blockquote>
-              </article>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <div class="center-l">
+        <section class="section">
+          <header class="stack-l section__header">
+            <h1 class="section__title">
+              10,000+ of our users love our products.
+            </h1>
+            <p class="section__subtitle">
+              We only provide great products combined with excellent customer
+              service. See what our satisfied customers are saying about our
+              services.
+            </p>
+          </header>
+          <div class="stack-l section__stats">
+            <div
+              class="box-l rating__stars"
+              data-stars="5"
+              data-topic="Reviews"
+            ></div>
+            <div
+              class="box-l rating__stars"
+              data-stars="5"
+              data-topic="Report Guru"
+            ></div>
+            <div
+              class="box-l rating__stars"
+              data-stars="5"
+              data-topic="BestTech"
+            ></div>
+          </div>
+          <div class="section__testimonials">
+            <ul class="card-list">
+              <li>
+                <article class="box-l stack-l card">
+                  <header class="cluster-l">
+                    <img
+                      alt="Image of the person making the testimonial"
+                      class="card__avatar"
+                      height="40"
+                      src="./assets/images/image-colton.jpg"
+                      width="40"
+                    />
+                    <div class="stack-l">
+                      <h2 class="card__title">Colton Smith</h2>
+                      <p class="highlight">Verified Buyer</p>
+                    </div>
+                  </header>
+                  <blockquote>
+                    <p class="card__text">
+                      “ We needed the same printed design as the one we had
+                      ordered a week prior. Not only did they find the original
+                      order, but we also received it in time. Excellent! ”
+                    </p>
+                  </blockquote>
+                </article>
+              </li>
+              <li>
+                <article class="box-l stack-l card">
+                  <header class="cluster-l">
+                    <img
+                      alt="Image of the person making the testimonial"
+                      class="card__avatar"
+                      height="40"
+                      src="./assets/images/image-irene.jpg"
+                      width="40"
+                    />
+                    <div class="stack-l">
+                      <h2 class="card__title">Irene Roberts</h2>
+                      <p class="highlight">Verified Buyer</p>
+                    </div>
+                  </header>
+                  <blockquote>
+                    <p class="card__text">
+                      “ Customer service is always excellent and very quick turn
+                      around. Completely delighted with the simplicity of the
+                      purchase and the speed of delivery. ”
+                    </p>
+                  </blockquote>
+                </article>
+              </li>
+              <li>
+                <article class="box-l stack-l card">
+                  <header class="cluster-l">
+                    <img
+                      alt="Image of the person making the testimonial"
+                      class="card__avatar"
+                      height="40"
+                      src="./assets/images/image-anne.jpg"
+                      width="40"
+                    />
+                    <div class="stack-l">
+                      <h2 class="card__title">Anne Wallace</h2>
+                      <p class="highlight">Verified Buyer</p>
+                    </div>
+                  </header>
+                  <blockquote>
+                    <p class="card__text">
+                      “ Put an order with this company and can only praise them
+                      for the very high standard. Will definitely use them again
+                      and recommend them to everyone! ”
+                    </p>
+                  </blockquote>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
     </main>
     <script src="./assets/scripts/scripts.js"></script>
   </body>
