@@ -25,7 +25,7 @@ A basic counter to know and practice with the DOM and event listener.
 A page to ask the user for a rating and respond with a thank you.
 
 - 🎯 Main Goal: Working with radio buttons with accessibility and DOM manipulation
-- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/card_rating_interactive/)
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/main/card_rating_interactive/)
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/card_rating_interactive/src/)
 
 ### `DOM:` Section with testimonials
@@ -33,7 +33,7 @@ A page to ask the user for a rating and respond with a thank you.
 A web page with a section with testimonials and dynamic rating
 
 - 🎯 Main Goal: Working with images, DOM manipulation, CSS with two images for a background and responsive design
-- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/section_social/)
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/main/section_social/)
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/section_social/src/)
 
 ### `DOM:` Menu graphic

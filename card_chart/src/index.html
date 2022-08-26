@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mentor frontend project to practice a chart component with data from a json file."
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+  </head>
+  <body>
+    <main class="cover-l">
+      <div class="center-l">
+        <article class="card">
+          <header class="box-l cluster-l card__header">
+            <div>
+              <h1 class="card__title">My balance</h1>
+              <p class="card__subtitle">$921.48</p>
+            </div>
+            <div class="card__logo">
+              <svg
+                width="60"
+                height="40"
+                viewBox="0 0 72 48"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g fill="none" fill-rule="evenodd">
+                  <circle fill="#382314" cx="48" cy="24" r="24" />
+                  <circle
+                    stroke="#FFF"
+                    stroke-width="2"
+                    cx="24"
+                    cy="24"
+                    r="23"
+                  />
+                </g>
+              </svg>
+            </div>
+          </header>
+          <div class="box-l chart">
+            <h2 class="chart__title">Spending - Last 7 days</h2>
+            <div class="chart__area">
+              <div class="chart__plot-area"></div>
+              <div class="chart__horizontal-axis"></div>
+            </div>
+            <div class="cluster-l chart__stats">
+              <div>
+                <h2 class="stats__title">Total this month</h2>
+                <p>$478.33</p>
+              </div>
+              <div>+2.4% from last month</div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+    <script src="./assets/scripts/scripts.js" type="module"></script>
+  </body>
+</html>
