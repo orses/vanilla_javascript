@@ -27,9 +27,6 @@ function renderDataPoints([values, labels], plotArea) {
     .join('');
 }
 
-/* <div data-value="${value}" class="data-point__value"></div>
- */
-
 function renderHorizontalAxis(labels) {
   const chartHorizontalAxis = document.querySelector('.chart__horizontal-axis');
   chartHorizontalAxis.innerHTML = labels

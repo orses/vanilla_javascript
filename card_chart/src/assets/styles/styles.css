@@ -31,12 +31,12 @@
 
   /* Typography */
   --fs-text: 1.125rem; /* 18px */
-  --fs-text-big: 1.5rem; /* 18px */
+  --fs-text-big: 1.5rem; /* 24px */
   --fs-text-biggish: 2rem;
   --fs-text-bigger: 3rem;
-  --fs-text-small: 0.9375rem;
-  --fs-text-smaller: 0.75rem;
-  /* The rest is used as is: 30px- 1.875rem, 42px-2.625rem */
+  --fs-text-small: 0.9375rem; /* 15px */
+  --fs-text-smaller: 0.75rem; /* 12 */
+  /* The rest is used as is: 23px- 1.4375rem 30px- 1.875rem, 42px-2.625rem */
 
   --lh-text: 1.25rem; /* 20px */
   --lh-text-big: 1.4375rem; /* 23px */
@@ -94,10 +94,12 @@ svg {
 ------------------------------------ */
 
 .box-l {
+  background-color: var(--color-white);
   border-radius: 0.625rem;
   /* for accessibility */
   outline: 0.125rem solid transparent;
   outline-offset: -0.125rem;
+  padding: clamp(1.25rem, 0.5124rem + 3.1056vw, 2.5rem);
 }
 
 .center-l {
@@ -187,21 +189,12 @@ svg {
 CHART
 ------------------------------------ */
 
-.chart {
-  background-color: var(--color-white);
-}
-
-.chart.box-l {
-  padding: clamp(1.25rem, 0.5124rem + 3.1056vw, 2.5rem);
-}
-
 .chart__area {
+  border-bottom: 2px solid hsla(27, 66%, 92%, 1);
   color: var(--color-mid-brown);
-  border-radius: 1px;
   margin-block-start: clamp(3.25rem, 2.7337rem + 2.1739vw, 4.125rem);
   margin-block-end: clamp(1.5rem, 1.205rem + 1.2422vw, 2rem);
   padding-block-end: clamp(1.5rem, 1.205rem + 1.2422vw, 2rem);
-  border-bottom: 1px solid hsla(27, 66%, 92%, 1);
 }
 
 .chart__data-point {
@@ -256,11 +249,12 @@ CHART
   );
   font-weight: var(--fw-bold);
   line-height: clamp(1.9375rem, 1.5318rem + 1.7081vw, 2.625rem);
+  margin-top: 0.25rem;
 }
 
 @media (min-width: 1024px) {
-  .chart.box-l {
-    padding-block-start: 2rem !important;
+  .chart__title {
+    margin-block-start: -0.5rem;
   }
 
   .chart__plot-area {
@@ -276,12 +270,60 @@ CHART
   border-radius: 0.3125rem;
   color: var(--color-white);
   display: none;
-  font-weight: var(--fw-bold);
-  left: -0.82rem;
-  line-height: var(--lh-text-big);
-  padding: 0.5rem 0.5625rem 0.5625rem 0.5rem;
+  font-size: clamp(0.875rem, 0.7275rem + 0.6211vw, var(--fs-text));
+  left: -0.65rem;
+  line-height: clamp(var(--lh-text), 1.1394rem + 0.4658vw, 1.4375rem);
+  padding: 0.25rem 0.3rem;
   position: absolute;
-  top: -3rem;
+  top: -2.3rem;
+}
+
+@media (min-width: 1024px) {
+  .data-point__label {
+    font-weight: var(--fw-bold);
+    left: -0.82rem;
+    padding: 0.5rem 0.5625rem 0.5625rem 0.5rem;
+    top: -3rem;
+  }
+}
+
+/* -----
+  STATS
+------------------------------------ */
+.stats {
+  color: var(--color-mid-brown);
+  font-size: clamp(var(--fs-text-small), 0.8269rem + 0.4658vw, var(--fs-text));
+  line-height: clamp(var(--lh-text), 1.1394rem + 0.4658vw, var(--lh-text-big));
+}
+
+.stats.cluster-l {
+  align-items: flex-end;
+}
+
+.stats__currency,
+.stats__percent {
+  color: var(--color-dark-brown);
+  font-weight: var(--fw-bold);
+}
+
+.stats__currency {
+  font-size: clamp(1.875rem, 1.2112rem + 2.795vw, var(--fs-text-bigger));
+  line-height: clamp(2.4375rem, 1.5893rem + 3.5714vw, var(--lh-text-bigger));
+}
+
+.stats__percent {
+  font-size: clamp(0.9375rem, 0.8269rem + 0.4658vw, 1.125rem);
+  line-height: clamp(1.25rem, 1.1394rem + 0.4658vw, 1.4375rem);
+}
+
+.stats__percent,
+.stats__text {
+  text-align: right;
+}
+
+.stats__title {
+  font-size: clamp(var(--fs-text-small), 0.8269rem + 0.4658vw, var(--fs-text));
+  line-height: clamp(var(--lh-text), 1.1394rem + 0.4658vw, var(--lh-text-big));
 }
 
 /* -----
