@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/responsive-landing-page-with-bem-and-grid-_GYSJJJK8p)
+- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt/hub/chart-card-with-data-from-a-json-file-E97JjWj_Sh)
 - Live Site URL: [GitHub](https://orses.github.io/vanilla_javascript/card_chart/src/)
 
 ## My process
