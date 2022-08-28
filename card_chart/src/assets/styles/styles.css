@@ -94,8 +94,8 @@ svg {
 ------------------------------------ */
 
 .box-l {
-  background-color: var(--color-white);
-  border-radius: 0.625rem;
+  background-color: var(--color-light-orange);
+  border-radius: clamp(0.625rem, 0.2562rem + 1.5528vw, 1.25rem);
   /* for accessibility */
   outline: 0.125rem solid transparent;
   outline-offset: -0.125rem;
@@ -145,7 +145,7 @@ svg {
 .card__header > :first-child {
   padding-block-end: 0.125rem;
   padding-block-start: clamp(0rem, -0.0738rem + 0.3106vw, 0.125rem);
-  padding-inline-start: clamp(0rem, -0.4425rem + 1.8634vw, 0.75rem);
+  padding-inline-start: clamp(0rem, -0.2582rem + 1.087vw, 0.4375rem);
 }
 
 .card__header.box-l {
@@ -153,7 +153,7 @@ svg {
 }
 
 .card__logo {
-  padding-inline-end: clamp(0rem, -0.7007rem + 2.9503vw, 1.1875rem);
+  padding-inline-end: clamp(0rem, -0.5163rem + 2.1739vw, 0.875rem);
 }
 
 .card__title {
@@ -295,7 +295,7 @@ CHART
 }
 
 .stats.cluster-l {
-  align-items: flex-end;
+  align-items: center;
 }
 
 .stats__currency,
