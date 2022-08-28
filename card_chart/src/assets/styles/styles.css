@@ -309,15 +309,15 @@ CHART
   line-height: clamp(2.4375rem, 1.5893rem + 3.5714vw, var(--lh-text-bigger));
 }
 
-.stats__percent {
-  font-size: clamp(0.9375rem, 0.8269rem + 0.4658vw, 1.125rem);
-  line-height: clamp(1.25rem, 1.1394rem + 0.4658vw, 1.4375rem);
-}
-
 .stats > :nth-child(2) {
   position: relative;
   top: -0.5rem;
   right: 0rem;
+}
+
+.stats__percent {
+  font-size: clamp(0.9375rem, 0.8269rem + 0.4658vw, 1.125rem);
+  line-height: clamp(1.25rem, 1.1394rem + 0.4658vw, 1.4375rem);
 }
 
 .stats__percent,
@@ -328,6 +328,14 @@ CHART
 .stats__title {
   font-size: clamp(var(--fs-text-small), 0.8269rem + 0.4658vw, var(--fs-text));
   line-height: clamp(var(--lh-text), 1.1394rem + 0.4658vw, var(--lh-text-big));
+  padding-block-end: 0.25rem;
+}
+
+@media (min-width: 1024px) {
+  .stats__title,
+  .stats__percent {
+    padding-block-end: 0.0625rem;
+  }
 }
 
 /* -----
