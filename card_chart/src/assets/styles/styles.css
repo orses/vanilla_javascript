@@ -295,8 +295,7 @@ CHART
 }
 
 .stats.cluster-l {
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .stats__currency,
@@ -313,6 +312,12 @@ CHART
 .stats__percent {
   font-size: clamp(0.9375rem, 0.8269rem + 0.4658vw, 1.125rem);
   line-height: clamp(1.25rem, 1.1394rem + 0.4658vw, 1.4375rem);
+}
+
+.stats > :nth-child(2) {
+  position: relative;
+  top: -0.5rem;
+  right: 0rem;
 }
 
 .stats__percent,
