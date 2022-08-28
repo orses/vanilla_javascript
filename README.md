@@ -28,6 +28,14 @@ A page to ask the user for a rating and respond with a thank you.
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/main/card_rating_interactive/)
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/card_rating_interactive/src/)
 
+### `DOM:` Card chart
+
+A page to plot a chart with data from a json file
+
+- 🎯 Main Goal: Working with data from a json file and display a chart of columns.
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/main/card_chart/)
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/card_chart/src/)
+
 ### `DOM:` Section with testimonials
 
 A web page with a section with testimonials and dynamic rating

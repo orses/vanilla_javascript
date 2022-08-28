@@ -137,7 +137,7 @@ svg {
 .card__header {
   color: var(--color-white);
   background-color: var(--color-primary);
-  margin-block-end: 1rem;
+  margin-block-end: clamp(1rem, 0.705rem + 1.2422vw, 1.5rem);
   padding-block-end: 1.375rem;
   padding-inline-end: 1.5rem;
 }
@@ -176,9 +176,7 @@ svg {
   .card__header > :first-child {
     padding-block-end: 0;
   }
-}
 
-@media (min-width: 1024px) {
   .card__logo svg {
     width: 4.5rem;
     height: 3rem;
