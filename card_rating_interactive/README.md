@@ -35,16 +35,16 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-<img src="./src/data/screenshot_desktop.jpg" width="600">
-<img src="./src/data/screenshot_desktop_active.jpg" width="600">
-<img src="./src/data/screenshot_desktop_response.jpg" width="600">
-<img src="./src/data/screenshot_mobile_375.jpg" width="300">
-<img src="./src/data/screenshot_mobile_375_response.jpg" width="300">
+<img src="./data/screenshot_desktop.jpg" width="600">
+<img src="./data/screenshot_desktop_active.jpg" width="600">
+<img src="./data/screenshot_desktop_response.jpg" width="600">
+<img src="./data/screenshot_mobile_375.jpg" width="300">
+<img src="./data/screenshot_mobile_375_response.jpg" width="300">
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/interactive-rating-with-accessible-radio-buttons-JSLXqomNeP)
-- Live Site URL: [Add live site URL here](https://orses.github.io/vanilla_javascript/card_rating_interactive/src/)
+- Solution: [Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-with-accessible-radio-buttons-JSLXqomNeP)
+- Live Site: [Github](https://orses.github.io/vanilla_javascript/card_rating_interactive/src/)
 
 ## My process
 
