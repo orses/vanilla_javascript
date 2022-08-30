@@ -154,6 +154,14 @@ A video player with **custom controls** to know and practice with the `<video>` 
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/video_player/src/)
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/video_player/)
 
+### `Game: Guess My Number!`
+
+A web page with a game, the user has to guess the number in 15 attempts maximum.
+
+- 🎯 Main Goal: Working with events, DOM manipulation, CSS with mobile first and responsive design
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_guess_number/src/)
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/main/dom_guess_number/)
+
 ### `Game: Hangman`
 
 A web page with a game, the hangman to guess a hidden word in a set amount of chances (1000+ English Words).
