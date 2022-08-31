@@ -3,7 +3,9 @@
 A web page to practice CSS variables to change the theme of the page with a toggle button between light(default) and dark
 
 <img src="./data/screenshot_mobile_375.jpg" width="150">
+<img src="./data/screenshot_mobile_375_dark.jpg" width="150">
 <img src="./data/screenshot_desktop.jpg" width="600">
+<img src="./data/screenshot_desktop_dark.jpg" width="600">
 
 - Main Goal: [DOM] Practice with CSS variables to change the main theme via JS
 - Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_dark_mode/src/)
