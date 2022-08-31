@@ -39,7 +39,7 @@
     if (guess.length === 0) return false;
 
     const guessNumber = Number(guess);
-    return typeof guessNumber === 'number' && isFinite(guessNumber);
+    return typeof guessNumber === 'number' && Number.isFinite(guessNumber);
   }
 
   function checkAnswer(guessValue) {
@@ -61,7 +61,6 @@
 
   function startGame() {
     numberToGuess = getRandomNumber(1, 20);
-    console.log(numberToGuess);
     elNumberGuess.value = '';
     btnCheck.classList.toggle('disabled');
     btnCheck.disabled = false;

@@ -40,9 +40,18 @@ A web page with a section with testimonials and dynamic rating
 - 🧑‍💻 Frontend Mentor: [link](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA/hub/bem-flexbox-and-grid-ptFVMHERqk)
 - 🔵 Level: Newbie
 
+### `DOM:` Dark theme
+
+A web page with toggle button to change light/dark theme
+
+- 🎯 Main Goal: Working with CSS BEM names, variables and responsive design.
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_dark_mode/src/)
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/main/dom_dark_mode/)
+- 🔵 Level: Newbie
+
 ### `DOM:` Menu graphic
 
-A web page with a menu of pictures.
+A web page with a restaurant menu with pictures.
 
 - 🎯 Main Goal: Working with images, DOM manipulation
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/menu_visual/src/)
