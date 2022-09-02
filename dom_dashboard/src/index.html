@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <meta
+      name="description"
+      content="A Frontend Mentor project to create a dashboard with data from a JSON file"
+    />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+  </head>
+  <body>
+    <main class="cover-l">
+      <section class="center-l section">
+        <header>
+          <div class="section__header">
+            <h1 class="section__title"><span>Report for</span>Jeremy Robson</h1>
+            <img
+              alt="Portrait of the user"
+              class="section__media"
+              height="64"
+              src="./assets/images/image-jeremy.png"
+              width="64"
+            />
+          </div>
+          <fieldset class="section__filter">
+            <label for="daily-filter">
+              <input
+                id="daily-filter"
+                name="stats-filter"
+                type="radio"
+                value="daily"
+              />
+              <span>Daily</span>
+            </label>
+            <label for="weekly-filter"
+              ><input
+                id="weekly-filter"
+                name="stats-filter"
+                type="radio"
+                value="weekly"
+              />
+              <span>Weekly</span>
+            </label>
+            <label for="monthly-filter">
+              <input
+                id="monthly-filter"
+                name="stats-filter"
+                type="radio"
+                value="monthly"
+              />
+              <span>Monthly</span>
+            </label>
+          </fieldset>
+        </header>
+        <div class="section__main">
+          <div class="card">
+            <div class="card__media">
+              <img
+                alt="Image of a briefcase"
+                class="card__image"
+                src="./assets/images/icon-work.svg"
+              />
+            </div>
+            <div class="card__main">
+              <div class="card__header">
+                <h2 class="card__title">Work</h2>
+                <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="#BBC0FF"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="card__details">
+                <p class="card__total">32hrs</p>
+                <div class="card__time">Last Week - 36hrs</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__media">
+              <img src="./assets/images/icon-work.svg" alt="" />
+            </div>
+            <div class="card__main">
+              <div class="card__header">
+                <h2 class="card__title">Work</h2>
+                <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="#BBC0FF"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="card__details">
+                <p class="card__total">32hrs</p>
+                <div class="card__time">Last Week - 36hrs</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__media">
+              <img src="./assets/images/icon-work.svg" alt="" />
+            </div>
+            <div class="card__main">
+              <div class="card__header">
+                <h2 class="card__title">Work</h2>
+                <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="#BBC0FF"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="card__details">
+                <p class="card__total">32hrs</p>
+                <div class="card__time">Last Week - 36hrs</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__media">
+              <img src="./assets/images/icon-work.svg" alt="" />
+            </div>
+            <div class="card__main">
+              <div class="card__header">
+                <h2 class="card__title">Work</h2>
+                <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="#BBC0FF"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="card__details">
+                <p class="card__total">32hrs</p>
+                <div class="card__time">Last Week - 36hrs</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__media">
+              <img src="./assets/images/icon-work.svg" alt="" />
+            </div>
+            <div class="card__main">
+              <div class="card__header">
+                <h2 class="card__title">Work</h2>
+                <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="#BBC0FF"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="card__details">
+                <p class="card__total">32hrs</p>
+                <div class="card__time">Last Week - 36hrs</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__media">
+              <img src="./assets/images/icon-work.svg" alt="" />
+            </div>
+            <div class="card__main">
+              <div class="card__header">
+                <h2 class="card__title">Work</h2>
+                <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="#BBC0FF"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="card__details">
+                <p class="card__total">32hrs</p>
+                <div class="card__time">Last Week - 36hrs</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./assets/scripts/scripts.js"></script>
+  </body>
+</html>

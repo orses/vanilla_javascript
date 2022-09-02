@@ -6,7 +6,7 @@
   "author": "Orses",
   "license": "MIT",
   "scripts": {
-    "server": "browser-sync  start --server landing_page_exploring/src/ --files landing_page_exploring/src/"
+    "server": "browser-sync  start --server dom_dashboard/src/ --files dom_dashboard/src/"
   },
   "devDependencies": {
     "eslint": "^8.19.0",
