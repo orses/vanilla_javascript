@@ -90,7 +90,7 @@ html {
   color: inherit;
   font: inherit;
   margin: 0;
-  overflow-wrap: break-word;
+  overflow-wrap: normal;
   padding: 0;
 }
 
@@ -134,23 +134,33 @@ svg {
 
 @media screen and (min-width: 768px) {
   .cover-l {
-    margin-block-start: 2.5rem;
+    margin-block-start: 0rem;
   }
 }
 
 @media screen and (min-width: 1110px) {
+  .center-l {
+    padding-inline: 0;
+  }
+
   .cover-l {
-    margin-block-start: 0;
+    margin-block-start: 2rem;
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .cover-l {
+    margin-block-start: 0rem;
+  }
+}
 /* ==================================
   SECTION
 ===================================== */
 
 .section {
   display: grid;
-  gap: 1.5rem;
+  gap: clamp(1.5rem, 1.3048rem + 0.8219vw, 1.875rem);
+  max-width: 1110px;
 }
 
 .section__filter,
@@ -166,14 +176,14 @@ svg {
   font-size: var(--fs-head2);
   justify-content: space-between;
   line-height: var(--lh-head2);
-  padding-block-end: clamp(1.5625rem, 1.3348rem + 0.9589vw, 2rem);
-  padding-block-start: clamp(2.25rem, 2.1849rem + 0.274vw, 2.375rem);
-  padding-inline: 2rem;
   margin-block-start: -1rem;
+  padding-block-end: clamp(1.5625rem, 1.3348rem + 0.9589vw, 2rem);
+  padding-block-start: clamp(2.5rem, 2.4349rem + 0.274vw, 2.625rem);
+  padding-inline: 2rem;
 }
 
 .section__filter input[type='radio'] {
-  height: 1.5rem;
+  height: 1rem;
   left: 0;
   opacity: 1;
   position: absolute;
@@ -196,15 +206,6 @@ svg {
   outline: none;
 }
 
-/*
-.section__filter input[type='radio']:hover + span {  */
-/* visually show focus outline when the SPAN receives focus */
-/*
-  outline: 3px solid var(--color-light);
-  outline-offset: 2px;
-}
-*/
-
 .section__filter label {
   cursor: pointer;
   height: 1.25rem;
@@ -212,27 +213,26 @@ svg {
   width: 4.25rem;
 }
 
-/* .section__actions {
-}
-
-.section__actions .btn {
-} */
-
 .section__header {
   align-items: center;
   background-color: var(--color-blue);
   border-radius: 0.9375rem;
   display: flex;
   gap: 1.25rem;
-  padding-block-end: 2.125rem;
+  padding-block-end: clamp(2.125rem, 0.6284rem + 6.3014vw, 5rem);
   padding-block-start: clamp(2.1875rem, 2.1224rem + 0.274vw, 2.3125rem);
   padding-inline: 2rem 2.4375rem;
   position: relative;
 }
 
+.section__main {
+  display: grid;
+  gap: clamp(1.5rem, 1.3048rem + 0.8219vw, 1.875rem);
+}
+
 .section__media {
-  height: clamp(4rem, 3.5445rem + 1.9178vw, 4.875rem);
-  width: clamp(4rem, 3.5445rem + 1.9178vw, 4.875rem);
+  height: clamp(4rem, 3.4795rem + 2.1918vw, 5rem);
+  width: clamp(4rem, 3.4795rem + 2.1918vw, 5rem);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 50%;
   border: 3px solid var(--color-light);
@@ -255,9 +255,14 @@ svg {
   font-size: var(--fs-text);
   font-weight: var(--fw-regular);
   line-height: var(--lh-text);
+  margin-block-end: 0.25rem;
 }
 
 @media screen and (min-width: 768px) {
+  .section {
+    grid-template-columns: 15.9375rem 2fr;
+  }
+
   .section__filter {
     flex-direction: column;
     gap: 1.3125rem;
@@ -267,24 +272,69 @@ svg {
   .section__header {
     align-items: flex-start;
     flex-direction: column;
-    gap: 2.6875rem;
+    gap: 1.25rem;
+  }
+
+  .section__media {
+    margin-left: -3px;
+  }
+
+  .section__main {
+    grid-template-columns: repeat(2, minmax(10rem, 15.9375rem));
+  }
+
+  .section__title span {
+    margin-block-end: 0.1875rem;
   }
 }
 
 @media screen and (min-width: 1110px) {
+  .section {
+    grid-template-columns: 15.9375rem 3fr;
+  }
+  .section header {
+    max-width: 15.9375rem;
+  }
+
   .section__header {
-    padding-block-end: 2rem;
+    gap: 2.6875rem;
   }
 }
 
-/* CARD -------------- */
+@media screen and (min-width: 1200px) {
+  .section {
+    width: 1110px;
+  }
 
-.card__header {
-  grid-area: card__header;
+  .section__main {
+    grid-template-columns: repeat(3, 15.9375rem);
+  }
 }
 
+/* ==================================
+  CARD
+===================================== */
+
+.card {
+  overflow: hidden;
+}
+
+.card__header,
 .card__details {
-  grid-area: card__details;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.card__header {
+  margin-block-end: clamp(0.4375rem, -0.1481rem + 2.4658vw, 1.5625rem);
+}
+
+.card__image {
+  margin-block-start: -0.75rem;
+  margin-inline-start: auto;
+  margin-inline-end: 1rem;
 }
 
 .card__main {
@@ -299,16 +349,12 @@ svg {
 }
 
 .card__media {
-  background-color: var(--color-red-light);
+  --color-bg: var(--color-red-light);
+  background-color: var(--color-bg, --color-red-light);
   border-radius: 0.9375rem 0.9375rem 0 0;
+  height: 9rem;
+  margin-block-end: -6.625rem;
   overflow: hidden;
-  margin-block-end: -1.9rem;
-}
-
-.card__image {
-  margin-block-start: -0.75rem;
-  margin-inline-start: auto;
-  margin-inline-end: 1rem;
 }
 
 .card__time {
@@ -336,8 +382,24 @@ svg {
   );
 }
 
+@media screen and (min-width: 768px) {
+  .card__details {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 @media screen and (min-width: 1110px) {
   .card {
-    padding-block: 1.8125rem 2rem;
+    max-width: 15.9375rem;
+  }
+
+  .card__media {
+    margin-block-end: -6.1875rem;
+  }
+
+  .card__main {
+    padding-block-start: 1.8125rem;
+    padding-block-end: 2rem;
   }
 }
