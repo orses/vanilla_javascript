@@ -16,10 +16,10 @@ function renderItems(data, period = 'weekly') {
   ];
 
   const items = data.map(
-    ({ title, timeframes }, index) => `<div class="card">
+    ({ title, timeframes }, index) => `<li><div class="card">
     <div class="card__media" style="--color-bg: var(${COLORS[index]})">
       <img
-        alt="Image of a briefcase"
+        alt=""
         class="card__image"
         height="79"
         src="./assets/images/icon-${title.toLowerCase().replace(' ', '-')}.svg"
@@ -28,21 +28,24 @@ function renderItems(data, period = 'weekly') {
     </div>
     <div class="card__main">
       <div class="card__header">
-        <h2 class="card__title">${title}</h2>
-        <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
-            fill="#BBC0FF"
-            fill-rule="evenodd"
-          />
-        </svg>
+        <h2 class="card__title"><a href="#">${title}</a></h2>
+        <a href="#" aria-label="link to configuration options">
+          <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </a>
       </div>
       <div class="card__details">
         <p class="card__total">${timeframes[period].current}hrs</p>
         <p class="card__time">Last Week - ${timeframes[period].previous}hrs</p>
       </div>
     </div>
-  </div>`
+  </div>
+  </li>`
   );
 
   return items.join('');

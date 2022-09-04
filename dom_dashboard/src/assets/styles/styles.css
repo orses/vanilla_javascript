@@ -29,6 +29,7 @@
   --color-blue-dark: hsl(226, 43%, 10%);
   --color-blue-dark-extra: hsl(235, 46%, 20%);
   --color-blue-desaturated: hsl(235, 45%, 61%);
+  --color-blue-highlight: hsl(235, 41%, 34%);
   --color-blue-pale: hsl(236, 100%, 87%);
   --color-blue-soft: hsl(195, 74%, 62%); /* play */
   --color-dark: hsla(226, 43%, 10%, 1);
@@ -99,6 +100,10 @@ body {
   background-color: var(--color-dark);
 }
 
+a {
+  text-decoration: none;
+}
+
 button {
   display: block;
 }
@@ -108,6 +113,10 @@ picture,
 svg {
   display: block;
   max-width: 100%;
+}
+
+ul {
+  list-style: none;
 }
 
 /* ==================================
@@ -128,13 +137,13 @@ svg {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-block-start: 5.0625rem;
+  margin-block: 5.0625rem;
   min-block-size: 100vh;
 }
 
 @media screen and (min-width: 768px) {
   .cover-l {
-    margin-block-start: 0rem;
+    margin-block: 0rem;
   }
 }
 
@@ -191,7 +200,8 @@ svg {
   z-index: -1;
 }
 
-.section__filter input[type='radio']:checked + span {
+.section__filter input[type='radio']:checked + span,
+.section__filter input[type='radio']:hover + span {
   color: var(--color-light);
 }
 
@@ -202,7 +212,7 @@ svg {
 }
 
 .section__filter input[type='radio']:focus:not(:focus-visible) + span {
-  /* hide the focus styles for mouse users */
+  /* hide the focus styles for mouse users, no valid for Firefox, only for Chrome, Edge and Opera */
   outline: none;
 }
 
@@ -331,6 +341,20 @@ svg {
   margin-block-end: clamp(0.4375rem, -0.1481rem + 2.4658vw, 1.5625rem);
 }
 
+.card__header svg {
+  color: var(--color-blue-pale);
+  cursor: pointer;
+}
+.card__header a:hover,
+.card__header a:focus {
+  display: block;
+  transform: scale(1.2);
+}
+.card__header svg:active,
+.card__header svg:focus {
+  color: #fff;
+}
+
 .card__image {
   margin-block-start: -0.75rem;
   margin-inline-start: auto;
@@ -346,6 +370,11 @@ svg {
   padding-block: 1.75rem;
   padding-inline: clamp(1.5rem, 1.3048rem + 0.8219vw, 1.875rem);
   position: relative;
+}
+
+.card__main:hover,
+.card__main:focus {
+  background-color: var(--color-blue-highlight);
 }
 
 .card__media {

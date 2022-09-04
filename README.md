@@ -40,6 +40,16 @@ A web page with a section with testimonials and dynamic rating
 - 🧑‍💻 Frontend Mentor: [link](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA/hub/bem-flexbox-and-grid-ptFVMHERqk)
 - 🔵 Level: Newbie
 
+### `DOM:` Dashboard
+
+A web challenge form Frontend Mentor
+
+- 🎯 Main Goal: Use Grid to present a layout with several cards showing data from a local JSON file
+- 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/dom_dashboard)
+- 🕹️ Live Demo: [link](https://orses.github.io/html-css/dom_dashboard_src/)
+- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/responsive-layout-with-grid-WlZNOBbyaV)
+- 🟢 Level: Junior
+
 ### `DOM:` Dark theme
 
 A web page with toggle button to change light/dark theme
