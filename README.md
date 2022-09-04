@@ -45,8 +45,8 @@ A web page with a section with testimonials and dynamic rating
 A web challenge form Frontend Mentor
 
 - 🎯 Main Goal: Use Grid to present a layout with several cards showing data from a local JSON file
-- 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/dom_dashboard)
-- 🕹️ Live Demo: [link](https://orses.github.io/html-css/dom_dashboard_src/)
+- 🗂️ Repository: [link](https://github.com/orses/vanilla_javascript/tree/main/dom_dashboard)
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_dashboard_src/)
 - 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/responsive-layout-with-grid-WlZNOBbyaV)
 - 🟢 Level: Junior
 
