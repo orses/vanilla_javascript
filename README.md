@@ -46,8 +46,8 @@ A web challenge form Frontend Mentor
 
 - 🎯 Main Goal: Use Grid to present a layout with several cards showing data from a local JSON file
 - 🗂️ Repository: [link](https://github.com/orses/vanilla_javascript/tree/main/dom_dashboard)
-- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_dashboard_src/)
-- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/responsive-layout-with-grid-WlZNOBbyaV)
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_dashboard/src/)
+- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/dashboard-with-data-from-a-local-json-file-using-fetch-api-L7X1P7Jujh)
 - 🟢 Level: Junior
 
 ### `DOM:` Dark theme
