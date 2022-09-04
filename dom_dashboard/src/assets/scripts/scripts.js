@@ -71,11 +71,8 @@ async function handleApp() {
   enableFilterPeriod();
 
   // feching data for the sesion
-<<<<<<< HEAD
+
   dataUser = await fetchJsonData('./data/data.json');
-=======
-  dataUser = await fetchJsonData('../../data/data.json');
->>>>>>> 48266f3a723c503524c7a26105596934725286f8
   if (!dataUser) return;
 
   // load and display default data items
