@@ -30,6 +30,16 @@ A page to ask the user for a rating and respond with a thank you and the rank se
 - 🧑‍💻 Frontend Mentor: [link](https://www.frontendmentor.io/solutions/interactive-rating-with-accessible-radio-buttons-JSLXqomNeP)
 - 🔵 Level: Newbie
 
+### `DOM:` Card chart
+
+A component to plot a chart with data from a local JSON file
+
+- 🎯 Main Goal: Working with data from a JSON file and display a chart of columns.
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/card_chart/src/)
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/main/card_chart/)
+- 🧑‍💻 Frontend Mentor: [link](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt/hub/chart-card-with-data-from-a-json-file-E97JjWj_Sh)
+- 🟢 Level: Junior
+
 ### `DOM:` Section with testimonials
 
 A web page with a section with testimonials and dynamic rating
@@ -59,14 +69,6 @@ A web page with toggle button to change light/dark theme
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/main/dom_dark_mode/)
 - 🔵 Level: Newbie
 
-### `DOM:` Menu graphic
-
-A web page with a restaurant menu with pictures.
-
-- 🎯 Main Goal: Working with images, DOM manipulation
-- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/menu_visual/src/)
-- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/menu_visual/)
-
 ### `DOM:` Client side Form validation
 
 A basic client side validation.
@@ -75,14 +77,6 @@ A basic client side validation.
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/form_validator/src/)
 - 🗂️ Repository: [link](https://github.com/orses/vanilla_javascript/tree/master/form_validator/)
 
-### `DOM:` Array Methods
-
-A web page to practice some very useful methods for arrays with a list of data from an external REST API
-
-- 🎯 Main Goal: Practice with array methods (reduce, sort, filter, map and forEach) with a data list o people from a REST API.
-- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_array_methods/src/)
-- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/dom_array_methods/)
-
 ### `DOM:` Menu slider and modal window
 
 A web page with a collapsible hamburger menu, and a modal window for user registration
@@ -90,6 +84,24 @@ A web page with a collapsible hamburger menu, and a modal window for user regist
 - 🎯 Main Goal: Working with a slider, as a menu, and a modal window.
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/menu_slider_and_modal/src/)
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/menu_slider_and_modal/)
+- 🔵 Level: Newbie
+
+### `DOM:` Menu graphic
+
+A web page with a restaurant menu with pictures.
+
+- 🎯 Main Goal: Working with images, DOM manipulation
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/menu_visual/src/)
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/menu_visual/)
+
+### `DOM:` Landing page with Flexbox
+
+A landing page for a tourist company all in Flexbox with a email contact
+
+- 🎯 Main Goal: Working with Flexbox, responsive, and mobile first for different layouts: navbar, cards, features, image gallery and footer
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/landing_page_exploring/src/)
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/landing_page_exploring/)
+- 🔵 Level: Newbie
 
 ### `DOM:` Memory Game
 
@@ -98,6 +110,7 @@ A web page to practice the DOM manipulation with arrays and CSS classes.
 - 🎯 Main Goal: [DOM] Practice with DOM, arrays and CSS classes.
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_memory_game/src/)
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/dom_memory_game/)
+- 🟢 Level: Junior
 
 ### `DOM:` Quiz test
 
@@ -106,16 +119,16 @@ A web page to practice DOM manipulation and generate a test-quiz
 - 🎯 Main Goal: [DOM] Practice with DOM, and interactivity with test quizzes.
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_exam_quiz/src/)
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/dom_exam_quiz/)
-
-### `DOM:` Card chart
-
-A page to plot a chart with data from a local json file
-
-- 🎯 Main Goal: Working with data from a json file and display a chart of columns.
-- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/card_chart/src/)
-- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/main/card_chart/)
-- 🧑‍💻 Frontend Mentor: [link](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt/hub/chart-card-with-data-from-a-json-file-E97JjWj_Sh)
 - 🟢 Level: Junior
+
+### `HTML5 API - FETCH:` Array Methods
+
+A web page to practice some very useful methods for arrays with a list of data from an external REST API
+
+- 🎯 Main Goal: Practice with array methods (reduce, sort, filter, map and forEach) with a data list o people from a REST API.
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_array_methods/src/)
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/dom_array_methods/)
+- 🔵 Level: Newbie
 
 ### `HTML5 API - FETCH:` Random Meal
 
@@ -180,6 +193,7 @@ A web page with a game, the user has to guess the number in 15 attempts maximum.
 - 🎯 Main Goal: Working with events, DOM manipulation, CSS with mobile first and responsive design
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_guess_number/src/)
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/main/dom_guess_number/)
+- 🔵 Level: Newbie
 
 ### `Game: Hangman`
 

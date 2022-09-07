@@ -21,9 +21,60 @@
     <link rel="stylesheet" href="./assets/styles/styles.css" />
   </head>
   <body>
-    <!-- header  -->
     <header id="home">
-      <nav class="navbar"></nav>
+      <nav class="nav">
+        <div class="nav__center">
+          <div class="nav__header">
+            <img alt="" class="nav__logo" src="./assets/images/logo.svg" />
+
+            <button class="nav__toggle" id="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <ul class="link-list" id="nav-links">
+            <li><a class="link scroll-link" href="#home">Home</a></li>
+            <li><a class="link scroll-link" href="#about">About</a></li>
+            <li>
+              <a class="link scroll-link" href="#services">Services</a>
+            </li>
+            <li>
+              <a class="link scroll-link" href="#featured">Featured</a>
+            </li>
+            <li>
+              <a class="link scroll-link" href="#gallery">Gallery</a>
+            </li>
+          </ul>
+          <ul class="social__icon-list">
+            <li>
+              <a
+                class="social__icon--nav"
+                href="https://www.facebook.com"
+                target="_blank"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="social__icon--nav"
+                href="https://www.twitter.com"
+                target="_blank"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="social__icon--nav"
+                href="https://www.squarespace.com"
+                target="_blank"
+              >
+                <i class="fab fa-squarespace"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <div class="hero">
         <div class="hero__banner">
           <h1 class="hero__title">Continue exploring</h1>
@@ -35,10 +86,7 @@
         </div>
       </div>
     </header>
-    <!-- end of header  -->
-    <!-- main -->
     <main>
-      <!-- about section -->
       <section class="section about" id="about">
         <div class="section__header">
           <h2 class="section__title">about <span>us</span></h2>
@@ -67,8 +115,6 @@
           </div>
         </div>
       </section>
-      <!-- end of about section -->
-      <!-- services -->
       <section class="section service" id="services">
         <div class="section__header">
           <h2 class="section__title">our <span>services</span></h2>
@@ -112,8 +158,6 @@
           </article>
         </div>
       </section>
-      <!--end services -->
-      <!-- featured tours -->
       <section class="section featured" id="featured">
         <div class="section__header">
           <h2 class="section__title">Featured <span>tours</span></h2>
@@ -225,17 +269,162 @@
           <a href="#" class="btn">All tours</a>
         </div>
       </section>
-      <!-- end of featured tours -->
-      <!-- contact -->
-      <section class="section contact" id="contact"></section>
-      <!-- end of contact -->
-      <!-- gallery  -->
-      <section class="section gallery" id="gallery"></section>
-      <!-- end of gallery  -->
+      <section class="section contact" id="contact">
+        <div class="section-center contact__center">
+          <div class="contact__header">
+            <h2 class="contact__title">Want Latest Tour Infor And Updates?</h2>
+            <p class="contact__subtitle">
+              Sign Up for newsletter and stay up to date
+            </p>
+          </div>
+          <form action="#" class="contact__form">
+            <label
+              aria-label="Input field to insert the email for receive newsletter for us"
+              for="#contact-input"
+            >
+            </label>
+            <input
+              class="form__control"
+              id="contact-input"
+              name="contact-input"
+              placeholder="Your Email"
+              type="email"
+            />
+            <button class="form__btn-submit" type="submit">submit</button>
+          </form>
+        </div>
+      </section>
+      <section class="gallery" id="gallery">
+        <div class="gallery__center">
+          <div class="gallery__media">
+            <img
+              alt="A view of a town between mountains"
+              class="gallery__image"
+              src="./assets/images/tour-1.jpeg"
+            />
+            <a href="#" class="gallery__icon">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+          <div class="gallery__media">
+            <img
+              alt="A woman with a hat on sitting in a road"
+              class="gallery__image"
+              src="./assets/images/tour-2.jpeg"
+            />
+            <a href="#" class="gallery__icon">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+          <div class="gallery__media">
+            <img
+              alt="View of the modern skyline of a city"
+              class="gallery__image"
+              src="./assets/images/tour-3.jpeg"
+            />
+            <a href="#" class="gallery__icon">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+          <div class="gallery__media">
+            <img
+              alt="Image of an elephant walking through the savannah"
+              class="gallery__image"
+              src="./assets/images/tour-6.jpeg"
+            />
+            <a href="#" class="gallery__icon">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+          <div class="gallery__media">
+            <img
+              alt="Image of two zebras"
+              class="gallery__image"
+              src="./assets/images/tour-4.jpeg"
+            />
+            <a href="#" class="gallery__icon">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+          <div class="gallery__media">
+            <img
+              alt="View of the Taj Mahal"
+              class="gallery__image"
+              src="./assets/images/tour-5.jpeg"
+            />
+            <a href="#" class="gallery__icon">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+          <div class="gallery__media">
+            <img
+              alt="A view of a town between mountains"
+              class="gallery__image"
+              src="./assets/images/tour-1.jpeg"
+            />
+            <a href="#" class="gallery__icon">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+          <div class="gallery__media">
+            <img
+              alt="A woman with a hat on sitting in a road"
+              class="gallery__image"
+              src="./assets/images/tour-2.jpeg"
+            />
+            <a href="#" class="gallery__icon">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
-    <!-- end of main -->
-    <footer></footer>
-    <!-- footer -->
+    <footer class="section footer">
+      <ul class="link-list">
+        <li><a class="link scroll-link" href="#home">Home</a></li>
+        <li><a class="link scroll-link" href="#about">About</a></li>
+        <li>
+          <a class="link scroll-link" href="#services">Services</a>
+        </li>
+        <li>
+          <a class="link scroll-link" href="#featured">Featured</a>
+        </li>
+        <li><a class="link scroll-link" href="#gallery">Gallery</a></li>
+      </ul>
+      <ul class="social__icon-list">
+        <li>
+          <a
+            class="social__icon social__icon--light"
+            href="https://www.facebook.com"
+            target="_blank"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            class="social__icon social__icon--light"
+            href="https://www.twitter.com"
+            target="_blank"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            class="social__icon social__icon--light"
+            href="https://www.squarespace.com"
+            target="_blank"
+          >
+            <i class="fab fa-squarespace"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="copyright">
+        Copyright &copy; Backroads Travel Tours Company
+        <span id="footer-year"></span>. All Rights Reserved
+      </p>
+    </footer>
     <script src="./assets/scripts/app.js"></script>
   </body>
 </html>
