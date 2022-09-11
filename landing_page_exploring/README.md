@@ -14,7 +14,7 @@ A landing page to practice Flexbox with layouts for header, nav, cards, features
 
   > Course website [link](www.udemy.com/course/in-depth-html-css-course-build-responsive-websites/
 
-The current project is based on the one that appears in the credits, but it is not exactly the same, since it incorporates small adaptations and personal experimentations like naming class using BEM on CSS; and IIFE on JS.
+  The current project is based on the one that appears in the credits, but it is not exactly the same, since it incorporates small adaptations and personal experimentations like naming class using BEM on CSS; and IIFE on JS.
 
 ## Screenshots
 

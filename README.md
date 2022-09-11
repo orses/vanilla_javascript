@@ -130,6 +130,15 @@ A web page to practice some very useful methods for arrays with a list of data f
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/dom_array_methods/)
 - 🔵 Level: Newbie
 
+### `HTML5 API - FETCH:` Pagination
+
+A web page to practice pagination with data from a API via Fetch
+
+- 🎯 Main Goal: Practice with pagination with data from a REST API.
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/fetch_pagination/src/)
+- 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/fetch_pagination/)
+- 🔵 Level: Newbie
+
 ### `HTML5 API - FETCH:` Random Meal
 
 A web page to obtain a random meal (recipe and ingredients) using a REST API
@@ -186,7 +195,7 @@ A video player with **custom controls** to know and practice with the `<video>` 
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/video_player/src/)
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/video_player/)
 
-### `Game: Guess My Number!`
+### `Game:` Guess My Number!
 
 A web page with a game, the user has to guess the number in 15 attempts maximum.
 
@@ -195,7 +204,7 @@ A web page with a game, the user has to guess the number in 15 attempts maximum.
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/main/dom_guess_number/)
 - 🔵 Level: Newbie
 
-### `Game: Hangman`
+### `Game:` Hangman
 
 A web page with a game, the hangman to guess a hidden word in a set amount of chances (1000+ English Words).
 
@@ -203,7 +212,7 @@ A web page with a game, the hangman to guess a hidden word in a set amount of ch
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/game_hangman/src/)
 - 🗂️ Repository [link](https://github.com/orses/vanilla_javascript/tree/master/game_hangman/)
 
-### `Game: Hangman, variant 02`
+### `Game:` Hangman, variant 02
 
 A web page with a game, the hangman to guess a hidden word in a set amount of chances (1000+ English Words).
 
