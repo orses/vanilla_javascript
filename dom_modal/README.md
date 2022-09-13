@@ -5,7 +5,7 @@ A web page to practice DOM manipulation.
 <img src="./data/screenshot_desktop.jpg" width="600">
 
 - 🎯 Main Goal: [DOM] Practice with DOM manipulation and with modal in specific.
-- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_modals/src/)
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_modal/src/)
 - 🔵 Level: Newbie
 
 ## Credits
