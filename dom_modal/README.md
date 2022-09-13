@@ -1,11 +1,11 @@
-# Guess My Number!
+# DOM: Modals
 
 A web page to practice DOM manipulation.
 
 <img src="./data/screenshot_desktop.jpg" width="600">
 
-- 🎯 Main Goal: [DOM] Practice with DOM manipulation.
-- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_guess_number/src/)
+- 🎯 Main Goal: [DOM] Practice with DOM manipulation and with modal in specific.
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_modals/src/)
 - 🔵 Level: Newbie
 
 ## Credits
@@ -14,7 +14,7 @@ A web page to practice DOM manipulation.
 
   > Udemy course [link](https://www.udemy.com/course/the-complete-javascript-course/)
 
-  The current project is based on the one that appears in the credits, but it is not exactly the same, since it incorporates small adaptations and personal experimentation's like: first mobile and responsive design for CSS and HTML; and IIFE, objects and functionality programming for JS; also a form to use the Enter key as associated with check button.
+  The current project is based on the one that appears in the credits, but it is not exactly the same, since it incorporates small adaptations and personal experimentation's like: first mobile, BEM, Animation and responsive design for CSS and HTML; and IIFE, objects and functionality programming for JS; also the HTML tags and CSS class have been restructured.
 
 ## Screenshots
 

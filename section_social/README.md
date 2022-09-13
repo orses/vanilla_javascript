@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA/hub/bem-flexbox-and-grid-ptFVMHERqk)
+- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/bem-flexbox-and-grid-ptFVMHERqk)
 - Live Site URL: [GitHub](https://orses.github.io/vanilla_javascript/section_social/src/)
 
 ## My process

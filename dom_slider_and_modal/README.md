@@ -4,8 +4,9 @@ A web page with a collapsible hamburger menu, and a modal window for user regist
 
 ![screenshot of the app showing a modal window](./data/screenshot_02_red.jpg)
 
-- Main Goal: [DOM] Working with a slider, as a menu, and a modal window.
-- Live Demo: [link](https://orses.github.io/vanilla_javascript/menu_slider_and_modal/src/)
+- 🎯 Main Goal: [DOM] Working with a slider, as a menu, and a modal window.
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_slider_and_modal/src/)
+- 🔵 Level: Newbie
 
 ## Credits
 
