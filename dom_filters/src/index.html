@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A web page to show different products by cards. The user can search products and select part of them by a group of buttons."
+    />
+    <title>Filters Starter</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.svg"
+      type="image/svg+xml"
+    />
+  </head>
+  <body>
+    <header><h1>Products (Filter)</h1></header>
+    <main>
+      <section class="product-section">
+        <!-- filters -->
+        <div class="product__filter">
+          <form class="search-form">
+            <label for="search-input"></label>
+            <input
+              class="search-input"
+              id="search-input"
+              name="search-input"
+              placeholder="search..."
+              type="search"
+            />
+          </form>
+
+          <h2>Company</h2>
+          <article class="company"></article>
+        </div>
+
+        <!-- products-->
+        <div class="product__container">
+          <ul class="product__list"></ul>
+        </div>
+      </section>
+    </main>
+    <script src="./assets/scripts/app.js" type="module"></script>
+  </body>
+</html>

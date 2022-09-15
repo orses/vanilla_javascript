@@ -10,9 +10,9 @@ A basic page to practice dark and light mode theme using a CSS class and JS
 
 ## Credits
 
-- Project from: Udemy course "HTML & CSS Tutorial and Projects Course 2022 (Flexbox & Grid)" by John Smilga
+- Project from: Udemy course "JavaScript tutorial and Projects Course 2022" by John Smilga
 
-  > Course website [link](www.udemy.com/course/in-depth-html-css-course-build-responsive-websites/
+  > Course website [link](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/)
 
   The current project is based on the one that appears in the credits, but it is not exactly the same, since it incorporates small adaptations and personal experimentations like naming class using BEM on CSS; and reorganization of files and functions on JS.
 
