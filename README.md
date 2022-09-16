@@ -148,6 +148,15 @@ A web page to practice some very useful methods for arrays with a list of data f
 - 🗂️ Repository: [link](https://github.com/orses/vanilla_javascript/tree/main/dom_array_methods/)
 - 🔵 Level: Newbie
 
+### `HTML5 API - FETCH:` Random Dad Jokes
+
+A web page to practice requesting data by the user from a API via Fetch
+
+- 🎯 Main Goal: Work with JS to change the data displayed on the page by the user, requesting new data from the server each time.
+- 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/fetch_dad_jokes/src/)
+- 🗂️ Repository: [link](https://github.com/orses/vanilla_javascript/tree/main/fetch_dad_jokes/)
+- 🔵 Level: Newbie
+
 ### `HTML5 API - FETCH:` Pagination
 
 A web page to practice pagination with data from a API via Fetch

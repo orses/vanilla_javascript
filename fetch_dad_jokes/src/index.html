@@ -4,11 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A web page to practice API FETCH retrieven quotes/jokes one by one"
+    />
     <title>Dad Jokes Starter</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.svg"
+      type="image/svg+xml"
+    />
   </head>
   <body>
-    <h1>dad jokes starter</h1>
-    <script src="./app.js"></script>
+    <div class="container">
+      <header>
+        <h1>dad jokes</h1>
+      </header>
+      <main>
+        <button class="btn">Show another dad joke</button>
+        <p class="display-text"></p>
+      </main>
+      <div class="attribution">
+        All jokes are requested and received via the
+        <a href="https://icanhazdadjoke.com">icanhazdajoke</a> REST API
+      </div>
+    </div>
+    <script src="./assets/scripts/app.js" type="module"></script>
   </body>
 </html>
