@@ -70,13 +70,7 @@ build/Release
 
 # DEVELOPMENT
 /.vscode
-/.dccache
-
-
+/.cache
 
 # PERSONAL
 /documentation_dev
-/AA DOCUMENTATION_DEV
-/EXAMPLE
-helpers.*
-RELACIÓN REM*
