@@ -109,7 +109,7 @@ A basic page to practice filters to update the DOM using a input search and a gr
 
 - 🎯 Main Goal: Working with JS to change by the user the data show on the page
 - 🕹️ Live Demo: [link](https://orses.github.io/vanilla_javascript/dom_filters/src/)
-- 🗂️ Repository: [link](https://github.com/orses/vanilla_javascript/main/dom_filters/)
+- 🗂️ Repository: [link](https://github.com/orses/vanilla_javascript/tree/main/dom_filters/)
 - 🔵 Level: Newbie
 
 ### `DOM:` Landing page with Flexbox
