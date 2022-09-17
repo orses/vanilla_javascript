@@ -126,8 +126,8 @@ A landing page for a tourist company all in Flexbox with a email contact
 A basic website with two pages: one for a catalog of products, and another for details of a selected product
 
 - 🎯 Main Goal: Work with JS to show and share data in different pages.
-- 🕹️ [Live Demo](https://orses.github.io/vanilla_javascript/webpage_product/src/)
-- 🗂️ [Repository](https://github.com/orses/vanilla_javascript/tree/main/webpage_products/)
+- 🕹️ [Live Demo](https://orses.github.io/vanilla_javascript/website_product/src/)
+- 🗂️ [Repository](https://github.com/orses/vanilla_javascript/tree/main/website_products/)
 - 🔵 Level: Newbie
 
 ### `DOM:` Memory Game
