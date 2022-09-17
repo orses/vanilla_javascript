@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Website with a catalog of products on one page and the details are showed in other page
-=======
 # Website with a catalog of products on one page and the details in another page
->>>>>>> 11b63cd (first stets with website_products project)
 
 <img src="./data/screenshot_desktop.jpg" width="350">
 
