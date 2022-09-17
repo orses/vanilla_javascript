@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <meta
+      name="description"
+      content="A Frontend Mentor project to create a dashboard with data from a JSON file"
+    />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+  </head>
+  <body>
+    <main class="cover-l">
+      <section class="center-l section">
+        <header>
+          <div class="section__header">
+            <h1 class="section__title"><span>Report for</span>Jeremy Robson</h1>
+            <img
+              alt="Portrait of the user"
+              class="section__media"
+              height="64"
+              src="./assets/images/image-jeremy.png"
+              width="64"
+            />
+          </div>
+          <fieldset class="section__filter">
+            <label for="daily-filter">
+              <input
+                id="daily-filter"
+                name="stats-filter"
+                type="radio"
+                value="daily"
+              />
+              <span>Daily</span>
+            </label>
+            <label for="weekly-filter"
+              ><input
+                id="weekly-filter"
+                name="stats-filter"
+                checked
+                type="radio"
+                value="weekly"
+              />
+              <span>Weekly</span>
+            </label>
+            <label for="monthly-filter">
+              <input
+                id="monthly-filter"
+                name="stats-filter"
+                type="radio"
+                value="monthly"
+              />
+              <span>Monthly</span>
+            </label>
+          </fieldset>
+        </header>
+        <ul class="section__main"></ul>
+      </section>
+    </main>
+    <script src="./assets/scripts/scripts.js" type="module"></script>
+  </body>
+</html>

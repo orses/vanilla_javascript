@@ -1,0 +1,84 @@
+/* -----
+COMPONENTS: BUTTON
+------------------------------------*/
+.btn {
+  border: 0;
+  cursor: pointer;
+  font-family: var(--font-serif);
+  text-decoration: none;
+}
+
+.btn-cta {
+  aspect-ratio: 1 / 1;
+  background-color: var(--color-white);
+  border-radius: 50%;
+  color: var(--color-dark);
+  display: grid;
+  font-size: clamp(1.25rem, 0.5344rem + 3.0534vw, 2rem);
+  min-height: 150px;
+  letter-spacing: calc(var(--ls-1) * 1em);
+  line-height: 1.16em;
+  place-items: center;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.btn-cta::after {
+  content: '';
+  position: absolute;
+  background-color: var(--color-white);
+  border-radius: 50%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 500ms linear, transform 500ms ease-in-out;
+  width: 100%;
+  z-index: -1;
+}
+
+.btn-cta:active {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  outline: 1px solid var(--color-white);
+}
+
+.btn-cta:hover::after,
+.btn-cta:focus::after {
+  mix-blend-mode: normal;
+  opacity: 0.15;
+  transform: scale(1.5);
+}
+
+@media screen and (min-width: 376px) {
+  .btn-cta {
+    height: 242px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .btn-cta {
+    height: 274px;
+  }
+}
+
+/* -----
+COMPONENTS: SLIDERS BUTTONS
+------------------------------------*/
+.slider > * {
+  background-color: var(--color-white);
+  border-radius: 50%;
+  cursor: pointer;
+  height: 16px;
+  opacity: 0.17;
+  width: 16px;
+}
+
+.slider > .active,
+.slider [aria-selected='true'] {
+  opacity: 1;
+}
+
+.slider > *:hover,
+.slider > *:focus {
+  opacity: 0.5;
+}

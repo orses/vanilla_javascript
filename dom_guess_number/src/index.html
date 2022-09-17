@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A project to practice DOM manipulation and store data"
+    />
+    <title>Guess My Number!</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.svg"
+      type="image/svg+xml"
+    />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+  </head>
+  <body class="center-l">
+    <div class="stack-large">
+      <header class="stack-small header">
+        <h1 class="header__title">Guess My Number!</h1>
+        <div class="cluster-l">
+          <button class="btn btn--play">Again!</button>
+          <p class="header__text">(Between 1 and 20)</p>
+        </div>
+        <div class="box-l header__number">?</div>
+      </header>
+      <main class="switcher-l">
+        <section class="number">
+          <form class="stack-small">
+            <input class="number__guess" type="input" />
+            <button type="submit" class="btn btn--check disabled">
+              Check!
+            </button>
+          </form>
+        </section>
+        <section class="stack-small result">
+          <h2 class="result__title">Start guessing...</h2>
+          <div class="result__score">
+            <p class="result__text">
+              💯 Score: <span class="result__value" id="score-result">20</span>
+            </p>
+            <p class="result__text">
+              🥇 Highscore:
+              <span class="result__value" id="score-hight">0</span>
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="./assets/scripts/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+  --alert-color: #ff3838;
+  --background-color: #c3c7ca;
+  --border-color: #e3e5e4;
+  --light-gray: #ccc5c5;
+  --success-color: #27cc61;
+  --text-color: #34444f;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body{
+  align-items: center;
+  border-color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.draggable-list {
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  list-style-type: none;
+  padding: 0;
+}
+
+.draggable-list li {
+  background-color: #fff;
+  display: flex;
+  flex:1
+}
+
+.draggable-list li:not(:last-of-type) {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.draggable-item {
+  align-items: center;
+  cursor: pointer;
+  display:flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  flex: 1;
+}
+
+.draggable-item.over {
+  background-color: var(--light-gray);
+}
+
+.draggable-list li .number {
+  align-items: center;
+  background-color: var(--background-color);
+  display: flex;
+  font-size: 2rem;
+  height: 4rem;
+  justify-content: center;
+  width: 4rem;
+}
+
+.draggable-item-name {
+  margin: 0 2rem 0 0;
+}
+
+.draggable-item-name.correct{
+  color: var(--success-color);
+}
+
+.draggable-item-name.wrong{
+  color: var(--alert-color);
+}
+
+
+.check-btn{
+  background-color: var(--background-color);
+  border: none;
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+}
+
+.check-btn:active{
+  transform: scale(0.98);
+}
+
+.check-btn:focus{
+  outline: none;
+}

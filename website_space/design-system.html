@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A website with some internal pages to practice complex CSS layouts for a desktop, tablet, and mobile device."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Space tourism website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+  </head>
+  <body>
+    <h1>Space</h1>
+    <nav>
+      <ul class="cluster-l nav underline-indicators">
+        <li class="active">
+          <a href="#"><span>00</span> Home</a>
+        </li>
+        <li>
+          <a href="#"><span>01</span> Destination</a>
+        </li>
+        <li>
+          <a href="#"><span>02</span> Crew</a>
+        </li>
+        <li>
+          <a href="#"><span>03</span> Technology</a>
+        </li>
+      </ul>
+    </nav>
+    <p>
+      So, you want to travel to Space Let’s face it; if you want to go to space,
+      you might as well genuinely go to outer space and not hover kind of on the
+      edge of it. Well sit back, and relax because we’ll give you a truly out of
+      this world experience!
+    </p>
+    <div>
+      <a class="btn btn-cta" href="#">Explore</a>
+    </div>
+
+    <div role="list" class="cluster-l nav-secondary underline-indicators">
+      <button aria-selected="false" role="listitem">Moon</button
+      ><button aria-selected="false" role="listitem">Mars</button
+      ><button aria-selected="true" role="listitem">Europa</button
+      ><button aria-selected="false" role="listitem">Titan</button>
+    </div>
+
+    <div class="cluster-l slider">
+      <button aria-selected="false">
+        <span class="visually-hidden">Slide One</span>
+      </button>
+      <button aria-selected="false">
+        <span class="visually-hidden">Slide Two</span>
+      </button>
+      <button aria-selected="true">
+        <span class="visually-hidden">Slide Three</span>
+      </button>
+      <button aria-selected="false">
+        <span class="visually-hidden">Slide Four</span>
+      </button>
+    </div>
+
+    <script src="./assets/scripts/index.js"></script>
+  </body>
+</html>

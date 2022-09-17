@@ -1,0 +1,31 @@
+// Style guide
+@import './config/colors';
+@import './config/fonts';
+@import './config/units';
+
+// Mixins
+@import './mixins/font_base';
+@import './mixins/breakpoints';
+@import './mixins/reset-list';
+
+// Base style
+@import './base/normalize';
+@import './base/base';
+
+// Blocks
+@import './blocks/form';
+@import './blocks/word';
+//@import './blocks/header';
+//@import './blocks/topbar';
+//@import './blocks/toggle-menu';
+//@import './blocks/menu';
+//@import './blocks/logo';
+//@import './blocks/side';
+//@import './blocks/main';
+//@import './blocks/lightbox';
+//@import './blocks/title';
+//@import './blocks/social';
+
+// Pages
+//@import "./pages/about";
+//@import "./pages/contact";

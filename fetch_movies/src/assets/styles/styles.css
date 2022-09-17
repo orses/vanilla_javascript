@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5% /* 10px */;
+	--danger-color: rgb(238, 173, 173);
+	--danger-text-color: rgb(100, 2, 2);
+
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body{
+	background-color: #272532;
+	font-family: "Poppins", sans-serif;
+	font-size: 2rem;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #373B69;
+	color:#708ED2;
+	display: flex;
+	height: 6rem;
+	justify-content: space-between;
+	padding: 1rem ;
+	margin: 0 0 1rem 0;
+}
+
+h2{
+	margin: 0;
+	padding: 0;
+}
+
+.brand-link{
+	text-decoration: none;
+	color: inherit;
+}
+
+.search-box {
+	background-color: #272532;
+	border: #83CFDF 1px solid;
+	border-radius: 5px;
+	color: #EBE5E2;
+	font-size: 2rem;
+	padding: 0.7rem;
+	width: 25rem;
+}
+
+.search-box::placeholder{
+	color:#708ED2;
+}
+
+main{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.show{
+	background-color: #373B69;
+	border-radius: 3px;
+	box-shadow: 0 4px 5px rgba(0, 0 , 0, 0.2);
+	margin: 1rem;
+	position: relative;
+	width: 210px;
+}
+
+.show__image {
+	border-radius: 3px 3px 0 0;
+	height: 295px;
+	width: 100%;
+}
+
+.show__title{
+	color: #EBE5E2;
+	font-size: 1.5rem;
+	letter-spacing: 0.7px;
+	margin: 0 0.2rem 0 0;
+}
+
+.show-info{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem 1rem;
+}
+
+.show__rate {
+	background-color: #272532;
+	border-radius: 3px;
+	font-size: 1.2rem;
+	padding: 0.5rem;
+}
+
+.show-overview {
+	background-color: #373B69;
+	color:#EBE5E2;
+	bottom: 0;
+	font-size: 1.4rem;
+	left: 0;
+	opacity: 0;
+	padding: 1rem;
+	position: absolute;
+	right: 0;
+	transform: opacity(0) ;
+	transition: transform 0.4s ease-in ;
+}
+
+.show:hover .show-overview{
+	opacity: 1;
+}
+
+.show-button{
+	background-color: #83CFDF;
+	border: none;
+	border-radius: 3px;
+	display: block;
+	margin-top: 1rem;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	text-align: center;
+	width: 6rem;
+}
+
+.show-button:active{
+	color:inherit;
+}
+
+.floating-message {
+	background-color: #83CFDF;
+	bottom: 0.1vh;
+	border-radius: 0.5rem 0 0 0;
+	color: rgb(1, 41, 32);
+	font-family: sans-serif;
+	font-size: 1rem;
+	padding: 0 1rem 1rem 0.5rem;
+	position: fixed;
+	right: 0;
+	height: 4vh;
+	margin: 0;
+}
+.floating-message p {
+	margin-bottom: 0;
+}
+
+.floating-message a {
+	color: #005045;
+	font-weight: 600;
+	font-size: 1.2rem;
+	text-decoration: none;
+	display: block;
+}
+
+.alert{
+	margin: 2rem;
+	padding: 2rem;
+	border-radius: 10px;
+}
+
+.alert-danger{
+	background-color: var(--danger-color);
+	color: var(--danger-text-color)
+}
+
+.green{
+	color: #83CFDF;
+}
+.orange{
+	color: #f0a44e;
+}
+.red {
+	color: rgb(197, 52, 52);
+}

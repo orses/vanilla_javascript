@@ -1,0 +1,34 @@
+:root {
+  --primary-color: #34a6ff; // #61dafb
+  --secondary-color: #52d3aa;
+  --contrast-color: #ff4e37;
+  --success-color: #09d3ac;
+  --danger-color: #ff3c32;
+  --warning-color: yellow;
+  --info-color: #9aaef3;
+  --cta-color: #c00;
+  --grey-color: rgb(204, 204, 204);
+  --dark-color: #212121;
+  --dark-color-2: #333; // #303846 // #282c34
+  --background-color: #181818;
+  --text-color: #ffffec;
+}
+
+$primary-color: var(--primary-color);
+$secondary-color: var(--secondary-color);
+$danger-color: var(--danger-color);
+$warning-color: var(--warning-color);
+$success-color: var(--success-color);
+$info-color: var(--info-color);
+$cta-color: var(--cta-color);
+$grey-color: var(--grey-color);
+$dark-color: var(--dark-color);
+$dark-color-2: var(--dark-color-2);
+$background-color: var(--background-color);
+$text-color: var(--text-color);
+
+/* example
+.controls {
+  color: $text-color;
+}
+*/

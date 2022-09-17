@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Dictionary</title>
+  </head>
+  <body>
+    <header>
+      <h1>English Dictionary</h1>
+    </header>
+    <main class="container">
+      <section class="form-container">
+        <form action="" class="form" id="word-form" name="word-form">
+          <div class="form-group">
+            <label class="form__label" for="word">Input a word</label>
+            <input
+              autocomplete="off"
+              class="form__input"
+              id="word"
+              name="word"
+              required
+              type="text"
+            />
+          </div>
+          <button class="form__submit" id="search" name="search" type="submit">
+            Search
+          </button>
+        </form>
+      </section>
+      <div class="error"></div>
+      <article class="word-container"></article>
+    </main>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

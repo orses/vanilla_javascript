@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A website with some internal pages to practice complex CSS layouts for a desktop, tablet, and mobile device."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Space tourism website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+  </head>
+  <body>
+    <div class="cover-l">
+      <header>
+        <div class="cluster-l">
+          <div class="frame-l">
+            <a href="./">
+              <img src="./assets/images/shared/logo.svg" alt="Logo Page">
+            </a>
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="24" cy="24" r="24" fill="#FFF" />
+                <path
+                  fill="#0B0D17"
+                  d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"
+                />
+              </g>
+            </svg>
+          </div>          
+          <nav id="primary-nav" data-visible="false">
+            <button aria-controls="primary-navigation" aria-expanded="false" class="nav-toggle-button"><span class="visually-hidden">Menu</span></button>            
+            <ul  class="switcher-l nav underline-indicators">
+              <li class="active">
+                <a href="./"><span>00</span> Home</a>
+              </li>
+              <li>
+                <a href="./content/destination/"><span>01</span> Destination</a>
+              </li>
+              <li>
+                <a href="./content/crew/"><span>02</span> Crew</a>
+              </li>
+              <li>
+                <a href="./content/technology/                  "><span>03</span> Technology</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        </header>
+      <main>
+        <div class="center-l">
+          <div class="switcher-l">
+            <div class="first-column">
+              <div class="stack-l">
+                <p class="heading5">So, you want to travel to</p>
+                <h1 class="heading1">Space</h1>
+                <p>
+                  Let’s face it; if you want to go to space, you might as well
+                  genuinely go to outer space and not hover kind of on the edge
+                  of it. Well sit back, and relax because we’ll give you a truly
+                  out of this world experience!
+                </p>
+              </div>
+            </div>
+            <div class="second-column">
+              <a class="btn btn-cta" href="./content/destination/">Explore</a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./assets/scripts/index.js"></script>
+  </body>
+</html>

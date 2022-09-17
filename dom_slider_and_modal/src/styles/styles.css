@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* ------------------------------- *\
+   # OTHERS CLASS
+\* ------------------------------- */
+.main-title {
+  margin: 0;
+}
+
+.subtitle {
+  margin: 30px 0;
+}
+
+/* ------------------------------- *\
+   # BASE
+\* ------------------------------- */
+
+:root {
+  --modal-duration: 0.9s;
+  --primary-color: #30336b;
+  --secondary-color: #be2edd;
+  --navbar-width: 200px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  transition: transform 0.6s cubic-bezier(0, 0.52, 0, 1);
+}
+
+/* ------------------------------- *\
+   # NAVBAR
+\* ------------------------------- */
+
+.navbar {
+  background-color: var(--primary-color);
+  border-right: 2px solid rgba(200, 200, 200, 0.1);
+  color: #fff;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  transform: translate3d(-100%, 0, 0); /* the key for slider menu */
+  top: 0;
+  width: var(--navbar-width);
+  z-index: 1000;
+}
+
+.navbar--visible {
+  transform: translate3d(var(--navbar-width), 0, 0);
+}
+
+.navbar__logo {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.navbar__items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__item {
+  border-bottom: 2px solid rgba(200, 200, 200, 0.1);
+  padding: 20px;
+}
+
+.navbar__item:first-of-type {
+  border-top: 2px solid rgba(200, 200, 200, 0.1);
+}
+
+.navbar__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar__link:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------- *\
+   # IMAGES
+\* ------------------------------- */
+
+.thumbnail {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+}
+
+/* ------------------------------- *\
+   # HEADER
+\* ------------------------------- */
+
+.header {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 1.85em 0.8em;
+  position: relative; /* context for the toggle buttoon */
+  text-align: center;
+}
+
+/* ------------------------------- *\
+   # BUTTONS
+\* ------------------------------- */
+
+.btn {
+  background-color: var(--secondary-color);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.6em 0.9em;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn--toggle {
+  background-color: rgba(0, 0, 0, 0.3);
+  left: 1.3rem;
+  position: absolute;
+  top: 1.3rem;
+}
+
+.btn--cta {
+  font-size: 1.3rem;
+  padding: 0.6em 1.5em;
+}
+
+.btn--close {
+  background: transparent;
+  font-size: 1.5em;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* ------------------------------- *\
+   # CONTAINER - COMPONENT
+\* ------------------------------- */
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 1rem;
+  width: 800px;
+}
+
+/* ------------------------------- *\
+   # MODAL
+\* ------------------------------- */
+.modal {
+  animation: modalopen var(--modal-duration) ease-out;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none; /* for hidden the show modal on windows load */
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.modal.show {
+  display: block;
+}
+
+.modal__container {
+  /* I don't use flexbox because I need display property to be none or block on parent element to show o hidden the modal */
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  left: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  position: absolute; /* context for btn--close */
+  transform: translate(-50%, -50%);
+  top: 50%;
+  width: 400px;
+}
+
+.modal__header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 1em;
+}
+
+.modal__title {
+  margin: 0;
+  border-bottom: 1px solid #333;
+}
+
+.modal__body {
+  padding: 1.25em;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ------------------------------- *\
+   # FORM
+\* ------------------------------- */
+.form__group {
+  margin: 1em 0;
+}
+
+.form__input {
+  padding: 0.5em;
+  width: 100%;
+}
