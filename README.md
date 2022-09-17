@@ -127,7 +127,7 @@ A basic website with two pages: one for a catalog of products, and another for d
 
 - 🎯 Main Goal: Work with JS to show and share data in different pages.
 - 🕹️ [Live Demo](https://orses.github.io/vanilla_javascript/webpage_product/src/)
-- 🗂️ [Repository](https://github.com/orses/vanilla_javascript/tree/main/webpage_product/)
+- 🗂️ [Repository](https://github.com/orses/vanilla_javascript/tree/main/webpage_products/)
 - 🔵 Level: Newbie
 
 ### `DOM:` Memory Game
