@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
   box-sizing: border-box; /* https://css-tricks.com/box-sizing/ */
 }
@@ -33,3 +34,40 @@ body {
 h1 {
   @include main-title-font;
 }
+=======
+html {
+  box-sizing: border-box; /* https://css-tricks.com/box-sizing/ */
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  width: 81vw;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: $background-color;
+  color: $text-color;
+  text-align: justify;
+}
+
+.container {
+  width: $mobile;
+  @include body-font;
+
+  @include tablet {
+    width: $tablet;
+  }
+}
+
+h1 {
+  @include main-title-font;
+}
+>>>>>>> 8214b560d7a6b0eca37d02a19be1f25d87d015b1

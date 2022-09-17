@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* -----
 UTILITIES
 ------------------------------------*/
@@ -55,3 +56,62 @@ UTILITIES
   font-weight: var(--font-bold);
   margin-inline-end: 0.5em;
 }
+=======
+/* -----
+UTILITIES
+------------------------------------*/
+
+.visually-hidden {
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  height: 1px !important;
+  border: 0 !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap, 1rem);
+}
+
+.bg-accent {
+  background-color: var(--color-light);
+}
+.bg-dark {
+  background-color: var(--color-dark);
+}
+.bg-white {
+  background-color: var(--color-white);
+}
+
+.text-accent {
+  background-color: var(--color-light);
+}
+.text-dark {
+  background-color: var(--color-dark);
+}
+.text-white {
+  background-color: var(--color-white);
+}
+
+.numbered-title {
+  font-family: var(--font-special);
+  font-size: 2.8px;
+  letter-spacing: calc(--letter-spacing-large - 0.025px);
+  line-height: 3.4rem;
+  text-transform: uppercase;
+}
+
+.numbered-title > span {
+  color: var(--color-white) / 0.25;
+  font-weight: var(--font-bold);
+  margin-inline-end: 0.5em;
+}
+>>>>>>> 8214b560d7a6b0eca37d02a19be1f25d87d015b1

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
   font-display: swap;
   font-family: 'DM Sans';
@@ -344,3 +345,351 @@ CHART
 .highlight {
   background-color: var(--color-accent);
 }
+=======
+@font-face {
+  font-display: swap;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./lib/Google_Fonts/DMSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./lib/Google_Fonts/DMSans-Bold.ttf') format('truetype');
+}
+
+:root {
+  /* colors */
+  --color-accent: hsl(186, 34%, 60%);
+  --color-cream: hsl(27, 66%, 92%);
+  --color-dark-brown: hsl(25, 47%, 15%);
+  --color-light-orange: hsl(33, 100%, 98%);
+  --color-mid-brown: hsl(28, 10%, 53%);
+  --color-orange: hsla(10, 100%, 76%, 1);
+  --color-primary: hsl(10, 79%, 65%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-white: hsla(30, 100%, 98%, 1);
+
+  /* fonts */
+  --font-plain: 'DM Sans', sans-serif;
+
+  /* Typography */
+  --fs-text: 1.125rem; /* 18px */
+  --fs-text-big: 1.5rem; /* 24px */
+  --fs-text-biggish: 2rem;
+  --fs-text-bigger: 3rem;
+  --fs-text-small: 0.9375rem; /* 15px */
+  --fs-text-smaller: 0.75rem; /* 12 */
+  /* The rest is used as is: 23px- 1.4375rem 30px- 1.875rem, 42px-2.625rem */
+
+  --lh-text: 1.25rem; /* 20px */
+  --lh-text-big: 1.4375rem; /* 23px */
+  --lh-text-biggish: 2rem;
+  --lh-text-bigger: 3.875rem; /* 62px */
+  --lh-text-small: 1rem;
+  /* the rest is used as is: 31px-1.9375rem , 39px - 2.4375rem, 42px - 2.625rem */
+
+  --fw-bold: 700;
+  --fw-normal: 400;
+
+  /* GLOBALS */
+  line-height: var(--lh-text);
+  font-family: var(--font-plain);
+  font-weight: var(--fw-normal);
+}
+
+/* -----
+ RESET
+------------------------------------ */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  border: 0 solid;
+  box-sizing: inherit;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  overflow-wrap: break-word;
+  padding: 0;
+}
+
+body {
+  font-size: var(--fs-text);
+  background-color: var(--color-cream);
+}
+
+button {
+  display: block;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* -----
+  LAYOUT
+------------------------------------ */
+
+.box-l {
+  background-color: var(--color-light-orange);
+  border-radius: clamp(0.625rem, 0.2562rem + 1.5528vw, 1.25rem);
+  /* for accessibility */
+  outline: 0.125rem solid transparent;
+  outline-offset: -0.125rem;
+  padding: clamp(1.25rem, 0.5124rem + 3.1056vw, 2.5rem);
+}
+
+.center-l {
+  box-sizing: content-box;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  max-inline-size: 33.75rem;
+}
+
+.center-l > * {
+  box-sizing: border-box;
+}
+
+.cover-l {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-block-size: 100vh;
+}
+
+.cluster-l {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* -----
+  CARD
+------------------------------------ */
+.card {
+  min-width: 21.4375rem;
+}
+
+.card__header {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  margin-block-end: clamp(1rem, 0.705rem + 1.2422vw, 1.5rem);
+  padding-block-end: 1.375rem;
+  padding-inline-end: 1.5rem;
+}
+
+.card__header > :first-child {
+  padding-block-end: 0.125rem;
+  padding-block-start: clamp(0rem, -0.0738rem + 0.3106vw, 0.125rem);
+  padding-inline-start: clamp(0rem, -0.2582rem + 1.087vw, 0.4375rem);
+}
+
+.card__header.box-l {
+  padding: clamp(1.25rem, 1.0656rem + 0.7764vw, 1.5625rem);
+}
+
+.card__logo {
+  padding-inline-end: clamp(0rem, -0.5163rem + 2.1739vw, 0.875rem);
+}
+
+.card__title {
+  font-size: clamp(var(--fs-text-small), 0.8269rem + 0.4658vw, var(--fs-text));
+  line-height: clamp(var(--lh-text), 1.1394rem + 0.4658vw, var(--lh-text-big));
+  margin-block-end: clamp(0.25rem, 0.1025rem + 0.6211vw, 0.5rem);
+}
+
+.card__subtitle {
+  font-size: clamp(
+    var(--fs-text-big),
+    1.205rem + 1.2422vw,
+    var(--fs-text-biggish)
+  );
+  font-weight: var(--fw-bold);
+  line-height: clamp(1.9375rem, 1.5318rem + 1.7081vw, 2.625rem);
+}
+
+@media (min-width: 1024px) {
+  .card__header > :first-child {
+    padding-block-end: 0;
+  }
+
+  .card__logo svg {
+    width: 4.5rem;
+    height: 3rem;
+  }
+}
+
+/* -----
+CHART
+------------------------------------ */
+
+.chart__area {
+  border-bottom: 2px solid hsla(27, 66%, 92%, 1);
+  color: var(--color-mid-brown);
+  margin-block-start: clamp(3.25rem, 2.7337rem + 2.1739vw, 4.125rem);
+  margin-block-end: clamp(1.5rem, 1.205rem + 1.2422vw, 2rem);
+  padding-block-end: clamp(1.5rem, 1.205rem + 1.2422vw, 2rem);
+}
+
+.chart__data-point {
+  border-radius: 0.3125rem;
+  background-color: var(--color-primary);
+  position: relative;
+  width: clamp(2.0625rem, 1.4223rem + 2.6957vw, 3.1475rem);
+}
+
+.chart__data-point:hover {
+  filter: brightness(1.3);
+  cursor: pointer;
+}
+
+/* here ⬇️ is the magic to show and hide the data label 😁 */
+.chart__data-point:hover > .data-point__label {
+  display: block;
+}
+
+.chart__horizontal-axis {
+  font-size: clamp(
+    var(--fs-text-smaller),
+    0.6394rem + 0.4658vw,
+    var(--fs-text-small)
+  );
+
+  line-height: clamp(
+    var(--lh-text-small),
+    0.8525rem + 0.6211vw,
+    var(--lh-text)
+  );
+}
+
+.chart__plot-area,
+.chart__horizontal-axis {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  align-items: flex-end;
+  gap: clamp(0.75rem, 0.532rem + 0.9177vw, 1.119375rem);
+}
+
+.chart__plot-area {
+  margin-block-end: 0.6875rem;
+}
+
+.chart__title {
+  font-size: clamp(
+    var(--fs-text-big),
+    1.205rem + 1.2422vw,
+    var(--fs-text-biggish)
+  );
+  font-weight: var(--fw-bold);
+  line-height: clamp(1.9375rem, 1.5318rem + 1.7081vw, 2.625rem);
+  margin-top: 0.25rem;
+}
+
+@media (min-width: 1024px) {
+  .chart__title {
+    margin-block-start: -0.5rem;
+  }
+
+  .chart__plot-area {
+    margin-block-end: 0.5rem;
+  }
+}
+
+/* -----
+  DATA-POINT
+------------------------------------ */
+.data-point__label {
+  background-color: var(--color-dark-brown);
+  border-radius: 0.3125rem;
+  color: var(--color-white);
+  display: none;
+  font-size: clamp(0.875rem, 0.7275rem + 0.6211vw, var(--fs-text));
+  left: -0.65rem;
+  line-height: clamp(var(--lh-text), 1.1394rem + 0.4658vw, 1.4375rem);
+  padding: 0.25rem 0.3rem;
+  position: absolute;
+  top: -2.3rem;
+}
+
+@media (min-width: 1024px) {
+  .data-point__label {
+    font-weight: var(--fw-bold);
+    left: -0.82rem;
+    padding: 0.5rem 0.5625rem 0.5625rem 0.5rem;
+    top: -3rem;
+  }
+}
+
+/* -----
+  STATS
+------------------------------------ */
+.stats {
+  color: var(--color-mid-brown);
+  font-size: clamp(var(--fs-text-small), 0.8269rem + 0.4658vw, var(--fs-text));
+  line-height: clamp(var(--lh-text), 1.1394rem + 0.4658vw, var(--lh-text-big));
+}
+
+.stats.cluster-l {
+  align-items: flex-end;
+}
+
+.stats__currency,
+.stats__percent {
+  color: var(--color-dark-brown);
+  font-weight: var(--fw-bold);
+}
+
+.stats__currency {
+  font-size: clamp(1.875rem, 1.2112rem + 2.795vw, var(--fs-text-bigger));
+  line-height: clamp(2.4375rem, 1.5893rem + 3.5714vw, var(--lh-text-bigger));
+}
+
+.stats > :nth-child(2) {
+  position: relative;
+  top: -0.5rem;
+  right: 0rem;
+}
+
+.stats__percent {
+  font-size: clamp(0.9375rem, 0.8269rem + 0.4658vw, 1.125rem);
+  line-height: clamp(1.25rem, 1.1394rem + 0.4658vw, 1.4375rem);
+}
+
+.stats__percent,
+.stats__text {
+  text-align: right;
+}
+
+.stats__title {
+  font-size: clamp(var(--fs-text-small), 0.8269rem + 0.4658vw, var(--fs-text));
+  line-height: clamp(var(--lh-text), 1.1394rem + 0.4658vw, var(--lh-text-big));
+  padding-block-end: 0.25rem;
+}
+
+@media (min-width: 1024px) {
+  .stats__title,
+  .stats__percent {
+    padding-block-end: 0.0625rem;
+  }
+}
+
+/* -----
+  UTILITIES
+------------------------------------ */
+.highlight {
+  background-color: var(--color-accent);
+}
+>>>>>>> 8214b560d7a6b0eca37d02a19be1f25d87d015b1
