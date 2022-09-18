@@ -3,7 +3,6 @@ async function fetchJsonData(url, init) {
   try {
     const response = await fetch(url, init);
 
-    console.log(response);
     if (response.ok) {
       const responseData = await response.json();
       deliver = responseData;

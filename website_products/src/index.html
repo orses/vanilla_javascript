@@ -4,21 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="This is a practice to show global data on a page (a catalog of product) and the details of a selected item in another page.">
+    <meta
+      name="description"
+      content="This is a practice to show global data on a page (a catalog of product) and the details of a selected item in another page."
+    />
     <title>Products Starter</title>
     <link rel="stylesheet" href="./assets/styles/styles.css" />
-    <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.svg"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <section class="product-section">
-      <!-- title -->
       <header class="section__header">
         <h2 class="section__title">our products</h2>
         <div class="section__title-underline"></div>
       </header>
-      <!-- products -->
-      <div class="product-section__center"></div>
+      <div class="product-section__center">
+        <div class="product-section__status">
+          <div class="spinner"></div>
+        </div>
+        <div class="product-section__container"></div>
+      </div>
     </section>
-    <script src="./assets/scripts/app.js"></script>
+    <script src="./assets/scripts/app.js" type="module"></script>
   </body>
 </html>

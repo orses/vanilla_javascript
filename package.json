@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "name": "vanilla_javascript",
   "version": "1.0.0",
@@ -16,22 +15,3 @@
     "eslint-plugin-import": "^2.26.0"
   }
 }
-=======
-{
-  "name": "vanilla_javascript",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/orses/vanilla_javascript.git",
-  "author": "Orses",
-  "license": "MIT",
-  "scripts": {
-    "server": "browser-sync  start --server landing_page_exploring/src/ --files landing_page_exploring/src/"
-  },
-  "devDependencies": {
-    "eslint": "^8.19.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0"
-  }
-}
->>>>>>> 8214b560d7a6b0eca37d02a19be1f25d87d015b1
